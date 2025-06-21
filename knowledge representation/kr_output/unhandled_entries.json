@@ -1,0 +1,209 @@
+[
+  {
+    "index":9,
+    "title":"Stres Pasca Trauma PTSD, Penghidap Berisiko Kena Penyakit Kronik!",
+    "relation":"triggered_by",
+    "reason":"list extraction returned empty",
+    "clean_title_tokens":null
+  },
+  {
+    "index":10,
+    "title":"Obsesif Kompulsif, OCD Pun Boleh Ada Pada Kanak-Kanak,Ini Cara Atasi",
+    "relation":"treated_by",
+    "reason":"list extraction returned empty",
+    "clean_title_tokens":null
+  },
+  {
+    "index":16,
+    "title":"claustrophobia-apa-yang-harus-anda-tahu Hello Doktor",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "claustrophobia",
+      "hello",
+      "doktor"
+    ]
+  },
+  {
+    "index":18,
+    "title":"Gangguan Tekanan Selepas Trauma? Lakukan Cara Ini - Hello Doktor",
+    "relation":"treated_by",
+    "reason":"list extraction returned empty",
+    "clean_title_tokens":null
+  },
+  {
+    "index":23,
+    "title":"Penyakit OCD Yang Anda Harus Perhatikan, Jika Ada Sila Jumpa Doktor",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "sakit",
+      "ocd",
+      "perhati",
+      "jumpa",
+      "doktor"
+    ]
+  },
+  {
+    "index":32,
+    "title":"Jenis Jenis Kemurungan Ada 6, Kenali Tanda-tandanya Sebelum Rawat!",
+    "relation":"has_symptom",
+    "reason":"list extraction returned empty",
+    "clean_title_tokens":null
+  },
+  {
+    "index":54,
+    "title":"strategi untuk membebaskan diri dari berfikir secara berlebihan",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "strategi",
+      "bebas",
+      "berfikir"
+    ]
+  },
+  {
+    "index":62,
+    "title":"Cara Menangani Stress: 3 Salah Faham Tentang Cara Pengurusan Stress",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "tangan",
+      "stress",
+      "salah",
+      "faham",
+      "urus",
+      "stress"
+    ]
+  },
+  {
+    "index":64,
+    "title":"Teknik Kawal Stres: Boleh Cuba Amalkan Teknik 4A Jika Rasa Tertekan!",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "teknik",
+      "kawal",
+      "stres",
+      "amal",
+      "teknik",
+      "tekan"
+    ]
+  },
+  {
+    "index":65,
+    "title":"Hidup Gembira Boleh Dicapai Dalam Masa 30 Saat Sahaja? Ini Caranya",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "hidup",
+      "gembira",
+      "capai"
+    ]
+  },
+  {
+    "index":66,
+    "title":"Kebaikan Stres Pada Tubuh, Bukan Semua Tekanan Tidak Baik!",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "stres",
+      "tubuh",
+      "tekan"
+    ]
+  },
+  {
+    "index":67,
+    "title":"Hidup Gembira, Nikmati Kehidupan Anda Dengan 12 Cara Mudah Ini!",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "hidup",
+      "gembira",
+      "nikmat",
+      "hidup",
+      "mudah"
+    ]
+  },
+  {
+    "index":68,
+    "title":"Muka Stress Boleh Sebabkan 5 Perkara Buruk Ini Pada Wajah Anda!",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "muka",
+      "stress",
+      "buruk",
+      "wajah"
+    ]
+  },
+  {
+    "index":69,
+    "title":"Darah Beku Disebabkan Stres Yang Melampau? Boleh Berlaku Ke?",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "darah",
+      "beku",
+      "stres",
+      "lampau"
+    ]
+  },
+  {
+    "index":71,
+    "title":"Ketenangan Diri Mula Pudar? Itu Tandanya Anda Perlukan 'Me Time'",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "tenang",
+      "pudar"
+    ]
+  },
+  {
+    "index":73,
+    "title":"Kena Buang Kerja Semasa PKP? Ini 11 Cara Nak Move On",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "kena",
+      "buang",
+      "kerja",
+      "pkp"
+    ]
+  },
+  {
+    "index":84,
+    "title":"Betul Ke Bau Hujan BOLEH Kurangkan Stress? Ini 5 Bauan Lain Yang Berkesan! - Hello Doktor",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "bau",
+      "hujan",
+      "stress"
+    ]
+  },
+  {
+    "index":92,
+    "title":"Bagaimana Menguruskan Stres Bayi Baru - Hello Doktor",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "urus",
+      "stres",
+      "bayi",
+      "hello",
+      "doktor"
+    ]
+  },
+  {
+    "index":104,
+    "title":"Kecelaruan obsesif kompulsif",
+    "relation":null,
+    "reason":"detect_relation returned None",
+    "clean_title_tokens":[
+      "kecelaruan",
+      "obsesif",
+      "kompulsif"
+    ]
+  }
+]

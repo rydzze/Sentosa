@@ -1,0 +1,2976 @@
+@prefix mh: <http://example.org/mentalhealth#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+mh:C001 a mh:Condition ;
+    rdfs:label "kegelisahan"@ms ;
+    mh:has_symptom mh:S001,
+        mh:S002,
+        mh:S003,
+        mh:S004,
+        mh:S005,
+        mh:S006,
+        mh:S007,
+        mh:S008,
+        mh:S009,
+        mh:S010,
+        mh:S011,
+        mh:S012,
+        mh:S013,
+        mh:S014,
+        mh:S015,
+        mh:S016,
+        mh:S017,
+        mh:S018,
+        mh:S019,
+        mh:S020,
+        mh:S021,
+        mh:S022,
+        mh:S023,
+        mh:S024,
+        mh:S025,
+        mh:S026,
+        mh:S027,
+        mh:S028,
+        mh:S029,
+        mh:S030,
+        mh:S031,
+        mh:S032,
+        mh:S033,
+        mh:S034,
+        mh:S035,
+        mh:S036,
+        mh:S037,
+        mh:S038,
+        mh:S039,
+        mh:S040,
+        mh:S041,
+        mh:S042,
+        mh:S043,
+        mh:S044,
+        mh:S045,
+        mh:S046,
+        mh:S047,
+        mh:S048,
+        mh:S049,
+        mh:S050,
+        mh:S051,
+        mh:S052,
+        mh:S053,
+        mh:S054,
+        mh:S055,
+        mh:S056,
+        mh:S057,
+        mh:S058,
+        mh:S059,
+        mh:S060,
+        mh:S061,
+        mh:S062,
+        mh:S063,
+        mh:S064,
+        mh:S065,
+        mh:S066,
+        mh:S067,
+        mh:S068,
+        mh:S069,
+        mh:S070,
+        mh:S071 ;
+    mh:treated_by mh:STR001,
+        mh:STR002,
+        mh:STR003,
+        mh:STR004,
+        mh:STR005,
+        mh:STR006,
+        mh:STR007,
+        mh:STR008,
+        mh:STR009,
+        mh:STR010,
+        mh:TRT001,
+        mh:TRT002,
+        mh:TRT003,
+        mh:TRT004,
+        mh:TRT005,
+        mh:TRT006,
+        mh:TRT007,
+        mh:TRT008,
+        mh:TRT009,
+        mh:TRT010,
+        mh:TRT011,
+        mh:TRT012,
+        mh:TRT013,
+        mh:TRT014,
+        mh:TRT015,
+        mh:TRT016,
+        mh:TRT017,
+        mh:TRT018,
+        mh:TRT019,
+        mh:TRT020,
+        mh:TRT021,
+        mh:TRT022,
+        mh:TRT023,
+        mh:TRT024,
+        mh:TRT025,
+        mh:TRT026,
+        mh:TRT027,
+        mh:TRT028,
+        mh:TRT029,
+        mh:TRT030,
+        mh:TRT031,
+        mh:TRT032,
+        mh:TRT033,
+        mh:TRT034,
+        mh:TRT035,
+        mh:TRT036,
+        mh:TRT037,
+        mh:TRT038,
+        mh:TRT039,
+        mh:TRT040,
+        mh:TRT041,
+        mh:TRT042,
+        mh:TRT043,
+        mh:TRT044,
+        mh:TRT045,
+        mh:TRT046,
+        mh:TRT047,
+        mh:TRT048,
+        mh:TRT049,
+        mh:TRT050,
+        mh:TRT051,
+        mh:TRT052,
+        mh:TRT053,
+        mh:TRT054,
+        mh:TRT055,
+        mh:TRT056,
+        mh:TRT057,
+        mh:TRT058,
+        mh:TRT059,
+        mh:TRT060,
+        mh:TRT061,
+        mh:TRT062,
+        mh:TRT063,
+        mh:TRT064,
+        mh:TRT065,
+        mh:TRT066,
+        mh:TRT067,
+        mh:TRT068,
+        mh:TRT069,
+        mh:TRT070,
+        mh:TRT071,
+        mh:TRT072,
+        mh:TRT073,
+        mh:TRT074,
+        mh:TRT075,
+        mh:TRT076,
+        mh:TRT077,
+        mh:TRT078,
+        mh:TRT079,
+        mh:TRT080,
+        mh:TRT081,
+        mh:TRT082,
+        mh:TRT083,
+        mh:TRT084,
+        mh:TRT085,
+        mh:TRT086,
+        mh:TRT087,
+        mh:TRT088,
+        mh:TRT089,
+        mh:TRT090,
+        mh:TRT091,
+        mh:TRT092,
+        mh:TRT093,
+        mh:TRT094,
+        mh:TRT095,
+        mh:TRT096,
+        mh:TRT097,
+        mh:TRT098,
+        mh:TRT099,
+        mh:TRT100,
+        mh:TRT101,
+        mh:TRT102 ;
+    mh:triggered_by mh:T001,
+        mh:T002,
+        mh:T003,
+        mh:T004,
+        mh:T005,
+        mh:T006,
+        mh:T007,
+        mh:T008,
+        mh:T009,
+        mh:T010,
+        mh:T011,
+        mh:T012,
+        mh:T013,
+        mh:T014,
+        mh:T015,
+        mh:T016,
+        mh:T017,
+        mh:T018,
+        mh:T019,
+        mh:T020,
+        mh:T021,
+        mh:T022,
+        mh:T023,
+        mh:T024,
+        mh:T025,
+        mh:T026,
+        mh:T027,
+        mh:T028,
+        mh:T029,
+        mh:T030,
+        mh:T031,
+        mh:T032,
+        mh:T033,
+        mh:T034,
+        mh:T035,
+        mh:T036,
+        mh:T037,
+        mh:T038,
+        mh:T039,
+        mh:T040,
+        mh:T041,
+        mh:T042,
+        mh:T043,
+        mh:T044,
+        mh:T045,
+        mh:T046,
+        mh:T047,
+        mh:T048 ;
+    rdfs:comment "Kebelakangan ini, ramai yang bercakap tentang anxiety atau kegelisahan, malah memberitahu umum diri mereka mengalami anxiety. Tahukah anda, apa itu penyakit anxiety yang sebenar?"@ms .
+
+mh:C002 a mh:Condition ;
+    rdfs:label "perasaan marah muncul selepas rasa resah gelisah? ada kaitan ke?"@ms .
+
+mh:C003 a mh:Condition ;
+    rdfs:label "rasa resah gelisah"@ms ;
+    mh:has_symptom mh:S072 .
+
+mh:C006 a mh:Condition ;
+    rdfs:label "tekanan emosi pasca trauma stres pasca trauma"@ms .
+
+mh:C007 a mh:Condition ;
+    rdfs:label "gangguan obsesif kompulsif"@ms .
+
+mh:C008 a mh:Condition ;
+    rdfs:label "fobia badut"@ms ;
+    mh:triggered_by mh:T049,
+        mh:T050,
+        mh:T051,
+        mh:T052,
+        mh:T053,
+        mh:T054,
+        mh:T055,
+        mh:T056,
+        mh:T057,
+        mh:T058,
+        mh:T059,
+        mh:T060,
+        mh:T061 .
+
+mh:C009 a mh:Condition ;
+    rdfs:label "cara mengatasi kegelisahan"@ms ;
+    mh:treated_by mh:STR011,
+        mh:STR012,
+        mh:TRT103,
+        mh:TRT104,
+        mh:TRT105,
+        mh:TRT106,
+        mh:TRT107,
+        mh:TRT108,
+        mh:TRT109,
+        mh:TRT110,
+        mh:TRT111,
+        mh:TRT112,
+        mh:TRT113,
+        mh:TRT114,
+        mh:TRT115,
+        mh:TRT116,
+        mh:TRT117,
+        mh:TRT118,
+        mh:TRT119,
+        mh:TRT120,
+        mh:TRT121,
+        mh:TRT122,
+        mh:TRT123,
+        mh:TRT124,
+        mh:TRT125,
+        mh:TRT126,
+        mh:TRT127,
+        mh:TRT128,
+        mh:TRT129,
+        mh:TRT130,
+        mh:TRT131,
+        mh:TRT132,
+        mh:TRT133,
+        mh:TRT134,
+        mh:TRT135,
+        mh:TRT136,
+        mh:TRT137 .
+
+mh:C010 a mh:Condition ;
+    rdfs:label "ketahui apa itu gangguan kegelisahan - hello doktor"@ms ;
+    rdfs:comment "Definisi Apa itu gangguan kegelisahan ( anxiety disorder )? Penyakit kegelisahan adalah sekumpulan penyakit mental yang melibatkan reaksi kegelisahan dan keresahan yang melampau."@ms .
+
+mh:C012 a mh:Condition ;
+    rdfs:label "jenis ketakutan yang mungkin anda sedang alami"@ms ;
+    rdfs:comment "Semasa kecil, penulis amat takutkan dua perkara: tempat yang tinggi dan air . Air?"@ms .
+
+mh:C014 a mh:Condition ;
+    rdfs:label "tekanan selepas trauma? lakukan cara ini - hello doktor"@ms .
+
+mh:C015 a mh:Condition ;
+    rdfs:label "simptom umum gangguan tekanan selepas trauma - hello doktor"@ms ;
+    mh:has_symptom mh:S073,
+        mh:S074,
+        mh:S075,
+        mh:S076,
+        mh:S077,
+        mh:S078,
+        mh:S079,
+        mh:S080,
+        mh:S081,
+        mh:S082,
+        mh:S083,
+        mh:S084,
+        mh:S085,
+        mh:S086,
+        mh:S087,
+        mh:S088,
+        mh:S089,
+        mh:S090,
+        mh:S091,
+        mh:S092,
+        mh:S093,
+        mh:S094,
+        mh:S095,
+        mh:S096,
+        mh:S097,
+        mh:S098,
+        mh:S099 .
+
+mh:C016 a mh:Condition ;
+    rdfs:label "apa yang anda tahu tentang kegelisahan? - hello doktor"@ms ;
+    rdfs:comment "Kegelisahan adalah tindak balas semula jadi yang wujud timbul rasa gelisah dan bimbang terhadap bahaya, terancam atau berada dalam situasi yang tertekan. Jenis kegelisahan Gangguan kegelisahan umum (GAD)."@ms .
+
+mh:C017 a mh:Condition ;
+    rdfs:label "bagaimana ingin mengatasi perasaan gemuruh? - hello doktor"@ms ;
+    rdfs:comment "Setiap orang pasti pernah mengalami perasaan gemuruh sama ada semasa temu duga, hari pertama bekerja, berjumpa orang ternama atau memberikan ucapan awam. Mari kita lihat apakah tip yang boleh dilakukan untuk mengurangkan rasa gemuruh."@ms .
+
+mh:C020 a mh:Condition ;
+    rdfs:label "agorafobia adalah bukan sebarang fobia"@ms ;
+    rdfs:comment "Apa itu agorafobia? Agorafobia adalah sejenis gangguan kerisauan di mana anda takut dan cuba mengelakkan tempat atau situasi yang mungkin menyebabkan anda panik dan membuat anda merasa terperangkap, tidak berdaya atau malu."@ms .
+
+mh:C021 a mh:Condition ;
+    rdfs:label "ketakutan menyebabkan gangguan panik? - hello doktor"@ms ;
+    rdfs:comment "Adakah anda pernah mengalami serangan ketakutan secara tiba-tiba yang berlaku selama beberapa minit? Dalam situasi ini, anda mungkin tidak berfikir tentang apa-apa lagi atau meneruskan kerja anda."@ms .
+
+mh:C022 a mh:Condition ;
+    rdfs:label "tentangnya"@ms ;
+    rdfs:comment "Definisi Apa itu gangguan stres pasca trauma? Gangguan stres pasca trauma (PTSD) merujuk kepada keadaan mental dimana anda mengalami episod panik yang dirangsang oleh pengalaman yang lalu."@ms .
+
+mh:C023 a mh:Condition ;
+    rdfs:label "ketahui bahaya penyakit bipolar mania terhadap remaja! - hello doktor"@ms ;
+    rdfs:comment "Baru-baru ini, gempar satu negara apabila seorang penyanyi muda tanah air iaitu Zynakal, bertindak menyerang pekerja asing di salah sebuah stesen minyak di ibu kota. Pelantun lagu Terbang yang berusia 21 tahun ini kemudiannya ditahan dan didenda oleh mahkamah sebanyak RM 2,800."@ms .
+
+mh:C024 a mh:Condition ;
+    rdfs:label "perubahan gaya hidup mampu kurangkan kemurungan"@ms ;
+    rdfs:comment "Kemurungan merupakan sejenis gangguan perasaan atau dalaman yang ditunjukkan melalui rasa sedih, kesepian, putus asa dan kekosongan hati yang mendalam. Jika kemurungan melanda, ia sememangnya boleh mempengaruhi aspek kehidupan harian anda."@ms .
+
+mh:C025 a mh:Condition ;
+    rdfs:label "orang yang kemurungan undang aura negatif untuk anda? - hello doktor"@ms ;
+    rdfs:comment "Berhadapan atau mengendalikan orang yang kemurungan dalam keluarga terdekat tidak semudah yang anda sangkakan. Bukanlah sesuatu yang pelik jika individu yang mengendalikannya akan turut berasa sedih atau mengalami emosi yang negatif seperti yang dialami oleh orang yang kemurungan."@ms .
+
+mh:C026 a mh:Condition ;
+    rdfs:label "kemurungan atau depresi: 5 tip mudah jalani kehidupan yang lancar"@ms ;
+    rdfs:comment "Kemurungan bukanlah satu hal yang boleh dibuat main-main. Jika anda “rasa’ seakan-akan mengalami depresi, sila dapatkan bantuan pakar."@ms .
+
+mh:C029 a mh:Condition ;
+    rdfs:label "jenis jenis kemurungan ada 6"@ms .
+
+mh:C030 a mh:Condition ;
+    rdfs:label "bipolar ke orang yang alami perubahan mood? - hello doktor"@ms ;
+    rdfs:comment "Penyakit mental merupakan topik yang sering dianggap tabu oleh kebanyakan masyarakat setempat. Namun, mengapa kita sewenang-wenangnya suka mempersendakan seseorang individu itu apabila mereka mempunyai karakter persis penyakit mental?"@ms .
+
+mh:C033 a mh:Condition ;
+    rdfs:label "tanda-tanda kemurungan - hello doktor"@ms ;
+    mh:has_symptom mh:S072,
+        mh:S099,
+        mh:S100,
+        mh:S101,
+        mh:S102,
+        mh:S103,
+        mh:S104,
+        mh:S105,
+        mh:S106,
+        mh:S107,
+        mh:S108,
+        mh:S109,
+        mh:S110,
+        mh:S111,
+        mh:S112,
+        mh:S113,
+        mh:S114,
+        mh:S115,
+        mh:S116,
+        mh:S117,
+        mh:S118,
+        mh:S119,
+        mh:S120,
+        mh:S121,
+        mh:S122,
+        mh:S123,
+        mh:S124,
+        mh:S125,
+        mh:S126,
+        mh:S127,
+        mh:S128 .
+
+mh:C034 a mh:Condition ;
+    rdfs:label "balu boleh mati kalau terlampau menderita"@ms ;
+    rdfs:comment "Mereka yang kematian pasangan hidup (balu) mempunyai risiko yang tinggi untuk mati dalam masa terdekat. Huh?"@ms .
+
+mh:C035 a mh:Condition ;
+    rdfs:label "tanda-tanda biasa depresi - hello doktor"@ms ;
+    mh:has_symptom mh:S100,
+        mh:S129,
+        mh:S130,
+        mh:S131,
+        mh:S132,
+        mh:S133,
+        mh:S134,
+        mh:S135,
+        mh:S136,
+        mh:S137,
+        mh:S138,
+        mh:S139,
+        mh:S140,
+        mh:S141,
+        mh:S142,
+        mh:S143,
+        mh:S144 .
+
+mh:C036 a mh:Condition ;
+    rdfs:label "tekanan hidup - jangan katakan ini pada orang depresi"@ms ;
+    rdfs:comment "“Mudah sangat koyak”, “Alah, masalah kecik je pun. Tu pun nak tekanan bagai”, “Sikit-sikit nak tekanan, pastu jadi gila” ."@ms .
+
+mh:C037 a mh:Condition ;
+    rdfs:label "buli siber memburukkan kualiti tidur"@ms ;
+    rdfs:comment "Remaja yang mengalami buli siber lebih cenderung untuk mengalami tidur yang kurang baik, yang seterusnya meningkatkan tahap kemurungan. Ia berdasarkan penyelidikan yang dijalankan oleh University di Buffalo."@ms .
+
+mh:C038 a mh:Condition ;
+    rdfs:label "tip menyokong ahli keluarga yang alami kemurungan - hello doktor"@ms ;
+    rdfs:comment "Memberi sokongan kepada individu yang alami kemurungan adalah satu perkara yang sukar dan mencabar. Jika individu tersebut merupakan ahli keluarga, ia pasti menjadi lebih mencabar."@ms .
+
+mh:C039 a mh:Condition ;
+    rdfs:label "bipolar disorder"@ms ;
+    mh:has_symptom mh:S145,
+        mh:S146,
+        mh:S147,
+        mh:S148,
+        mh:S149,
+        mh:S150,
+        mh:S151,
+        mh:S152,
+        mh:S153,
+        mh:S154,
+        mh:S155,
+        mh:S156,
+        mh:S157 .
+
+mh:C040 a mh:Condition ;
+    rdfs:label "cara mengatasi kemurungan adalah dengan hanya berfikiran positif!"@ms ;
+    mh:treated_by mh:TRT100,
+        mh:TRT138,
+        mh:TRT139,
+        mh:TRT140,
+        mh:TRT141,
+        mh:TRT142,
+        mh:TRT143,
+        mh:TRT144,
+        mh:TRT145,
+        mh:TRT146,
+        mh:TRT147,
+        mh:TRT148,
+        mh:TRT149,
+        mh:TRT150,
+        mh:TRT151,
+        mh:TRT152,
+        mh:TRT153,
+        mh:TRT154,
+        mh:TRT155,
+        mh:TRT156,
+        mh:TRT157,
+        mh:TRT158 .
+
+mh:C041 a mh:Condition ;
+    rdfs:label "bagaimana untuk mengawal kemarahan - hello doktor"@ms ;
+    rdfs:comment "Ke marah an adalah emosi yang normal dan sihat. Tetapi jika kemarahan menjadi di luar kawalan, anda mungkin akan berdepan dengan masalah yang boleh merosakkan perhubungan, kesihatan dan kewarasan fikiran anda."@ms .
+
+mh:C042 a mh:Condition ;
+    rdfs:label "makanan bantu tingkatkan emosi anda - hello doktor"@ms ;
+    rdfs:comment "Jika anda mengalami kemurungan atau mungkin ingin menyingkirkan emosi yang tidak elok dalam diri, mengambil makanan tertentu dalam diet pemakanan anda boleh menjadi idea yang baik. Beberapa jenis makanan dapat membantu mengurangkan tekanan, menyingkir kegelisahan dan melawan kemurungan, sekaligus dalam membantu tingkatkan emosi anda."@ms .
+
+mh:C043 a mh:Condition ;
+    rdfs:label "mengawal kemarahan? amalkan tip ini. berkesan! - hello doktor"@ms ;
+    rdfs:comment "Marah adalah satu emosi yang normal. Tetapi jika ia di luar kawalan, ia boleh memberikan kesan serius terhadap hubungan, kesihatan fizikal dan mental anda."@ms .
+
+mh:C044 a mh:Condition ;
+    rdfs:label "perubahan emosi: apakah puncanya? - hello doktor"@ms ;
+    mh:triggered_by mh:T062,
+        mh:T063,
+        mh:T064,
+        mh:T065,
+        mh:T066,
+        mh:T067,
+        mh:T068,
+        mh:T069,
+        mh:T070,
+        mh:T071,
+        mh:T072,
+        mh:T073,
+        mh:T074,
+        mh:T075,
+        mh:T076,
+        mh:T077,
+        mh:T078,
+        mh:T079,
+        mh:T080,
+        mh:T081,
+        mh:T082,
+        mh:T083,
+        mh:T084,
+        mh:T085,
+        mh:T086,
+        mh:T087,
+        mh:T088,
+        mh:T089,
+        mh:T090,
+        mh:T091,
+        mh:T092,
+        mh:T093 .
+
+mh:C045 a mh:Condition ;
+    rdfs:label "potensi risiko kemurungan pada lelaki - hello doktor"@ms ;
+    rdfs:comment "Jarang sekali untuk kita dapat mengenali pasti kemurungan pada lelaki. Secara umumnya, lelaki cenderung untuk tidak mendapatkan sebarang bantuan kerana merasakan bahawa mereka seharusnya tampil kuat, berdikari, dapat menangani kesakitan dan mengendalikan situasi."@ms .
+
+mh:C046 a mh:Condition ;
+    rdfs:label "mood berubah-ubah: adakah ia normal? - hello doktor"@ms ;
+    rdfs:comment "Setiap orang pasti pernah mengalami perubahan mood. Adakalanya, gembira dan bersemangat sehingga banyak perkara dapat diselesaikan dalam hanya satu hari."@ms .
+
+mh:C047 a mh:Condition ;
+    rdfs:label "kecelaruan bipolar"@ms ;
+    rdfs:comment "Terdapat beberapa jenis masalah mental. Anda mungkin pernah mendengar mengenai kecelaruan stres pascatrauma, kecelaruan obsesif-kompulsif."@ms .
+
+mh:C048 a mh:Condition ;
+    rdfs:label "apakah itu kecelaruan personaliti pinggiran (bpd)? - hello doktor"@ms ;
+    rdfs:comment "Anda berasa takut apabila semua orang meninggalkan anda, anda kerap berasa bosan dan kosong, atau anda tidak boleh berseorangan. Tanda-tanda ini berkemungkinan anda didiagnosis dengan kecelaruan personaliti pinggiran atau borderline personality disorder (BPD)."@ms .
+
+mh:C049 a mh:Condition ;
+    rdfs:label "jenis-jenis kemurungan - hello doktor"@ms ;
+    rdfs:comment "Memahami jenis kemurungan yang dialami seseorang membantu doktor menentukan rawatan. Dan bagi mereka yang didiagnosis dengan kemurungan, mempunyai maklumat tentang gangguan khusus yang mereka alami boleh membantu memahami keadaan yang mereka alami."@ms .
+
+mh:C050 a mh:Condition ;
+    rdfs:label "depresi major - hello doktor"@ms ;
+    rdfs:comment "Definisi Apa itu Depresi Major? Depresi major, juga dikenali sebagai gangguan depresif unipolar atau major, dikategorikan dengan rasa sedih yang berterusan atau kurang rasa minat terhadap rangsangan luar."@ms .
+
+mh:C051 a mh:Condition ;
+    rdfs:label "kemurungan melampau - hello doktor"@ms ;
+    rdfs:comment "Definisi Apa itu kemurungan yang melampau? Kehilangan orang yang disayangi adalah salah satu perkara yang paling menyedihkan dan, malangnya ia merupakan pengalaman biasa yang dihadapi oleh semua orang."@ms .
+
+mh:C052 a mh:Condition ;
+    rdfs:label "cara terbaik mengawal marah - hello doktor"@ms ;
+    rdfs:comment "Kemarahan adalah emosi yang normal dan sihat, tetapi apabila ia berada di luar kawalan, anda mungkin mendatangkan kesan yang serius terhadap hubungan, kesihatan, dan fikiran anda. Berikut adalah beberapa tip menangani kemarahan dengan cara yang berkesan dan sihat."@ms .
+
+mh:C053 a mh:Condition ;
+    rdfs:label "pemilihan warna: bagaimana warna mempengaruhi mood anda?"@ms ;
+    rdfs:comment "Adakah anda tertanya-tanya mengapa anda suka beberapa pemilihan warna pada orang lain? Adakah anda pernah berfikir perasaan anda apabila memasuki sebuah bilik dengan warna yang tertentu, seperti biru, putih atau merah?"@ms .
+
+mh:C056 a mh:Condition ;
+    rdfs:label "mengapa anda mudah marah ketika lapar - hello doktor"@ms ;
+    rdfs:comment "Adakah anda pernah rasa ingin marah semasa lapar? Jika ya, anda telah mengalami “hangry” (gabungan perkataan hungry dan angry) – satu fenomena di mana sesetengah orang rasa ingin marah dan panas baran apabila mereka terlepas waktu makan."@ms .
+
+mh:C057 a mh:Condition ;
+    rdfs:label "berhenti merasa kasihan pada diri sendiri - hello doktor"@ms ;
+    rdfs:comment "Merasa kasihan pada diri sendiri adalah salah satu perkara yang paling tidak berguna dan membinasakan kepada sesiapa pun. Ia lebih daripada sekadar keadaan fikiran apabila jiwa anda sentiasa terkesan dengan perasaan tersebut dan membazirkan setiap tenaga untuknya."@ms .
+
+mh:C058 a mh:Condition ;
+    rdfs:label "jenis herba yang boleh bantu anda tenangkan fikiran! cuba 5 herba ini"@ms ;
+    rdfs:comment "Dalam dunia yang serba pantas, tekanan dan cabaran kehidupan sering kali memberi kesan kepada kesejahteraan mental dan emosi kita. Tanpa pengurusan yang baik, ia boleh membawa kepada masalah seperti keresahan, kemurungan, dan keletihan mental."@ms .
+
+mh:C059 a mh:Condition ;
+    rdfs:label "cara atasi kemarahan guna rage room"@ms ;
+    mh:treated_by mh:STR013,
+        mh:STR014,
+        mh:TRT159,
+        mh:TRT160,
+        mh:TRT161,
+        mh:TRT162,
+        mh:TRT163,
+        mh:TRT164,
+        mh:TRT165,
+        mh:TRT166,
+        mh:TRT167,
+        mh:TRT168,
+        mh:TRT169,
+        mh:TRT170,
+        mh:TRT171,
+        mh:TRT172,
+        mh:TRT173,
+        mh:TRT174,
+        mh:TRT175,
+        mh:TRT176,
+        mh:TRT177,
+        mh:TRT178,
+        mh:TRT179,
+        mh:TRT180,
+        mh:TRT181,
+        mh:TRT182,
+        mh:TRT183,
+        mh:TRT184,
+        mh:TRT185,
+        mh:TRT186,
+        mh:TRT187,
+        mh:TRT188,
+        mh:TRT189,
+        mh:TRT190,
+        mh:TRT191,
+        mh:TRT192,
+        mh:TRT193,
+        mh:TRT194,
+        mh:TRT195,
+        mh:TRT196,
+        mh:TRT197,
+        mh:TRT198,
+        mh:TRT199,
+        mh:TRT200 .
+
+mh:C060 a mh:Condition ;
+    rdfs:label "tanda tanda tekanan emosi & sindrom itik"@ms ;
+    rdfs:comment "Tidak mengejutkan jika kata kunci ‘tanda stress melampau’ sangat banyak di carian laman web Google . Alasannya, masalah tekanan pada mental merupakan isu besar."@ms .
+
+mh:C065 a mh:Condition ;
+    rdfs:label "punca tekanan emosi anak boleh diatasi dengan 5 tip ini - hello doktor"@ms ;
+    mh:triggered_by mh:T094,
+        mh:T095,
+        mh:T096,
+        mh:T097,
+        mh:T098,
+        mh:T099,
+        mh:T100,
+        mh:T101,
+        mh:T102,
+        mh:T103,
+        mh:T104,
+        mh:T105,
+        mh:T106,
+        mh:T107,
+        mh:T108,
+        mh:T109,
+        mh:T110,
+        mh:T111,
+        mh:T112,
+        mh:T113 .
+
+mh:C066 a mh:Condition ;
+    rdfs:label "kerja lebih masa buatkan anda burnout? ini 7 tip atasinya - hello doktor"@ms ;
+    rdfs:comment "Petugas barisan hadapan bukan sahaja perlu berdepan dengan risiko jangkitan COVID-19 yang lebih tinggi , tetapi juga perlu melalui keletihan dan juga tekanan sehingga boleh menyebabkan gejala burnout . Sindrom burnout juga boleh memberi kesan negatif kepada mereka yang bekerja dari rumah atau yang kerja lebih masa."@ms .
+
+mh:C067 a mh:Condition ;
+    rdfs:label "berasa sunyi? anda boleh atasinya dengan 7 perkara ini - hello doktor"@ms ;
+    rdfs:comment "Semua individu pernah berasa sunyi. Namun kesunyian itu sendiri mempunyai beberapa jenis maksud bergantung kepada konteks penggunaannya."@ms .
+
+mh:C068 a mh:Condition ;
+    rdfs:label "tanda tekanan emosi bagi lelaki"@ms ;
+    rdfs:comment "Stress atau tekanan boleh berlaku kepada sesiapa. Tetapi apakah tanda stress pada seseorang lelaki itu ya?"@ms .
+
+mh:C069 a mh:Condition ;
+    rdfs:label "kelesuan kerja boleh sebabkan masalah jantung - kajian - hello doktor"@ms ;
+    rdfs:comment "Ramai individu tahu bahawa stres (termasuk kelesuan kerja) boleh menyebabkan pelbagai jenis masalah kesihatan. Namun, fakta tersebut sering diambil mudah memandangkan kebanyakan individu mahu bersaing bagi mendapatkan prestasi yang baik di tempat kerja."@ms .
+
+mh:C070 a mh:Condition ;
+    rdfs:label "argh"@ms ;
+    rdfs:comment "Siapa yang tidak suka bercuti? Apatah lagi setelah menghadap kerja yang memenatkan mental dan fizikal ."@ms .
+
+mh:C073 a mh:Condition ;
+    rdfs:label "malas pergi kerja? atasi monday blues - hello doktor"@ms ;
+    rdfs:comment "Badan anda rasa ‘lemau’ bila muncul sahaja hari Isnin? Anda tidak berseorangan."@ms .
+
+mh:C074 a mh:Condition ;
+    rdfs:label "kerja dan tekanan emosi – punca dan menanganinya - hello doktor"@ms ;
+    mh:triggered_by mh:T114,
+        mh:T115,
+        mh:T116,
+        mh:T117,
+        mh:T118,
+        mh:T119,
+        mh:T120,
+        mh:T121,
+        mh:T122,
+        mh:T123,
+        mh:T124,
+        mh:T125,
+        mh:T126,
+        mh:T127,
+        mh:T128,
+        mh:T129,
+        mh:T130,
+        mh:T131,
+        mh:T132,
+        mh:T133,
+        mh:T134,
+        mh:T135,
+        mh:T136,
+        mh:T137,
+        mh:T138,
+        mh:T139,
+        mh:T140,
+        mh:T141,
+        mh:T142,
+        mh:T143,
+        mh:T144,
+        mh:T145,
+        mh:T146,
+        mh:T147,
+        mh:T148,
+        mh:T149,
+        mh:T150,
+        mh:T151,
+        mh:T152,
+        mh:T153,
+        mh:T154,
+        mh:T155,
+        mh:T156,
+        mh:T157,
+        mh:T158 .
+
+mh:C075 a mh:Condition ;
+    rdfs:label "kepala botak sebab kerja lebih masa? - hello doktor"@ms ;
+    rdfs:comment "Walaupun stres di tempat kerja merupakan faktor yang penting dalam memastikan pekerja kekal produktif , kajian menunjukkan ia boleh menyebabkan masalah kepala botak dalam kalangan lelaki. Tak percaya?"@ms .
+
+mh:C076 a mh:Condition ;
+    rdfs:label "tanaman rumah sebagai 1 terapi"@ms ;
+    mh:treated_by mh:TRT201,
+        mh:TRT202,
+        mh:TRT203,
+        mh:TRT204,
+        mh:TRT205,
+        mh:TRT206,
+        mh:TRT207,
+        mh:TRT208,
+        mh:TRT209,
+        mh:TRT210,
+        mh:TRT211 .
+
+mh:C079 a mh:Condition ;
+    rdfs:label "tekanan di tempat kerja: tips mengurangkannya - hello doktor"@ms ;
+    rdfs:comment "Bekerja setiap hari tanpa wujudnya semangat positif untuk bekerja memungkinkan seseorang individu mempunyai pelbagai tekanan. Berasa bosan mengulangi skop kerja yang sama, tiada semangat untuk bekerja dan tekanan untuk memenuhi Petunjuk Prestasi Utama (KPI) adalah antara perkara biasa yang dialami oleh seseorang individu di tempat kerja."@ms .
+
+mh:C080 a mh:Condition ;
+    rdfs:label "manfaat terapi muzik yang mungkin anda tidak ketahui - hello doktor"@ms ;
+    mh:treated_by mh:TRT212,
+        mh:TRT213,
+        mh:TRT214,
+        mh:TRT215,
+        mh:TRT216,
+        mh:TRT217,
+        mh:TRT218,
+        mh:TRT219,
+        mh:TRT220,
+        mh:TRT221,
+        mh:TRT222,
+        mh:TRT223,
+        mh:TRT224,
+        mh:TRT225,
+        mh:TRT226,
+        mh:TRT227,
+        mh:TRT228,
+        mh:TRT229,
+        mh:TRT230,
+        mh:TRT231,
+        mh:TRT232,
+        mh:TRT233,
+        mh:TRT234,
+        mh:TRT235,
+        mh:TRT236,
+        mh:TRT237,
+        mh:TRT238,
+        mh:TRT239,
+        mh:TRT240,
+        mh:TRT241,
+        mh:TRT242,
+        mh:TRT243,
+        mh:TRT244,
+        mh:TRT245,
+        mh:TRT246 .
+
+mh:C081 a mh:Condition ;
+    rdfs:label "bagaimana muzik mempengaruhi emosi? - hello doktor"@ms ;
+    rdfs:comment "Tahukah anda, bahawa muzik mempunyai kesan positif terhadap emosi, walaupun ia adalah muzik yang menyedihkan? Malahan, muzik dapat membantu menyingkirkan kesedihan dan kegelisahan, meningkat kebahagian serta memperbaiki emosi."@ms .
+
+mh:C082 a mh:Condition ;
+    rdfs:label "pakar psikiatri: apa yang perlu anda jangkakan jika bertemu mereka?"@ms ;
+    rdfs:comment "Kesihatan mental adalah keadaan kesejahteraan fizikal, mental dan sosial yang lengkap, dan bukan sekadar ketiadaan penyakit atau kelemahan dan jika terganggu, rawatan daripada pakar psikiatri diperlukan. Untuk mendapatkan penilaian kesihatan mental yang lebih baik , kebiasaannya memerlukan bantuan pakar."@ms .
+
+mh:C083 a mh:Condition ;
+    rdfs:label "fikiran kosong: apakah puncanya? - hello doktor"@ms ;
+    mh:triggered_by mh:T159,
+        mh:T160,
+        mh:T161,
+        mh:T162,
+        mh:T163,
+        mh:T164,
+        mh:T165,
+        mh:T166,
+        mh:T167,
+        mh:T168,
+        mh:T169,
+        mh:T170,
+        mh:T171,
+        mh:T172,
+        mh:T173,
+        mh:T174,
+        mh:T175,
+        mh:T176,
+        mh:T177,
+        mh:T178,
+        mh:T179,
+        mh:T180,
+        mh:T181,
+        mh:T182,
+        mh:T183,
+        mh:T184,
+        mh:T185,
+        mh:T186,
+        mh:T187,
+        mh:T188,
+        mh:T189,
+        mh:T190,
+        mh:T191,
+        mh:T192,
+        mh:T193,
+        mh:T194,
+        mh:T195,
+        mh:T196,
+        mh:T197,
+        mh:T198,
+        mh:T199,
+        mh:T200,
+        mh:T201,
+        mh:T202,
+        mh:T203,
+        mh:T204,
+        mh:T205,
+        mh:T206,
+        mh:T207 .
+
+mh:C084 a mh:Condition ;
+    rdfs:label "masalah mengendalikan kemarahan? fahaminya di sini- hello doktor"@ms ;
+    rdfs:comment "Kemarahan adalah emosi normal yang kuat, membantu anda merasakan tenaga dan memberikan tumpuan kepada perkara penting. Walau bagaimanapun, jika ia di luar kawalan, ia boleh menyebabkan impak negatif terhadap perhubungan mahupun kesihatan."@ms .
+
+mh:C085 a mh:Condition ;
+    rdfs:label "5 tip atasi tekanan - hello doktor"@ms ;
+    rdfs:comment "Pernahkah anda merasakan bahawa tiada yang dapat anda lakukan untuk mengatasi tekanan? Walau bagaimanapun, anda sebenarnya mempunyai banyak pilihan untuk mengawal dan atasi tekanan yang anda hadapi lebih dari apa yang anda sangkakan."@ms .
+
+mh:C086 a mh:Condition ;
+    rdfs:label "selalu marah-marah? ini ada tip mengawal kemarahan - hello doktor"@ms ;
+    rdfs:comment "Tidak mampu mengawal kemarahan boleh menyebabkan pelbagai masalah timbul seperti menjejaskan hubungan sosial dengan ahli keluarga, rakan ataupun rakan sekerja, malahan ia turut boleh menjejaskan kesihatan anda. Jadi tip mengawal kemarahan tak?"@ms .
+
+mh:C087 a mh:Condition ;
+    rdfs:label "bagaimana alam boleh melegakan tekanan anda - hello doktor"@ms ;
+    rdfs:comment "Menurut Michael Posner, Profesor Emeritus di University of Oregon yang melakukan kajian mengenai kadar penumpuan manusia dengan merumuskan otak kita menjadi letih selepas tempoh bekerja yang panjang. Terutamanya jika tugas itu berulang-ulang dan memerlukan tumpuan lebih daripada biasa."@ms .
+
+mh:C088 a mh:Condition ;
+    rdfs:label "tip mengendalikan tekanan di rumah - hello doktor"@ms ;
+    rdfs:comment "Kebelakangan ini, anda mudah menjadi tertekan antara kerja, keluarga dan tugasan lain. Adalah baik jika anda boleh mengenepikan dan melepaskan tekanan di rumah yang membebani diri anda, atau kesihatan fizikal dan mental anda boleh terganggu."@ms .
+
+mh:C089 a mh:Condition ;
+    rdfs:label "bagaimana menangani tekanan di tempat kerja? - hello doktor"@ms ;
+    rdfs:comment "Setiap individu yang pernah bekerja atau sedang bekerja, pasti pernah merasakan tekanan  atau ketegangan berkaitan dengan kerja. Apa juga pekerjaan, walau betapa anda sukakan pekerjaan anda itu, pasti akan mempunyai tekanan."@ms .
+
+mh:C090 a mh:Condition ;
+    rdfs:label "kemurungan"@ms ;
+    rdfs:comment "Kemurungan adalah reaksi normal kepada tekanan atau bahaya, tetapi perasaan cemas dan kekhuatiran yang berturut-turut mungkin disebabkan Kecelaruan keresahan . Gangguan kerisauan boleh membuat hidup sengsara."@ms .
+
+mh:C091 a mh:Condition ;
+    rdfs:label "kecelaruan episod kemurungan major"@ms ;
+    rdfs:comment "Kecelaruan episod kemurungan major ( MDD ), juga dikenali sebagai kemurungan , ialah gangguan mental dicirikan oleh sekurang-kurangnya dua minggu mood rendah yang pervasif. Penghargaan diri berkurang, kehilangan minat dalam aktiviti yang menyeronokkan, rendah tenaga, dan kesakitan tanpa sebab yang jelas adalah gejala biasa."@ms .
+
+mh:C092 a mh:Condition ;
+    rdfs:label "kecelaruan keresahan"@ms ;
+    rdfs:comment "Kecelaruan keresahan ialah kluster kecelaruan mental yang dicirikan oleh perasaan keresahan atau kerisauan dan ketakutan yang ketara dan tidak terkawal sehingga fungsi sosial, pekerjaan dan peribadi seseorang terjejas dengan ketara. Keresahan boleh menyebabkan gejala fizikal dan kognitif, seperti kegelisahan, kerengsaan, mudah keletihan, kesukaran menumpukan perhatian, peningkatan kadar denyutan jantung, sakit dada, sakit perut, dan pelbagai gejala lain yang mungkin berbeza-beza berdasarkan individu."@ms .
+
+mh:C093 a mh:Condition ;
+    rdfs:label "kecelaruan keresahan menyeluruh"@ms ;
+    rdfs:comment "Kecelaruan keresahan menyeluruh (Bahasa Inggeris: Generalized Anxiety Disorder atau GAD ) ialah suatu kecelaruan keresahan yang ditandai dengan kebimbangan tidak terkawal, berlebihan dan selalunya tidak rasional tentang hal-hal sehari yang tidak setanding dengan apa yang patut dibimbang. Kebimbangan yang berlebihan ini sering mengganggu fungsi sehari-hari, sebagai individu yang menderita GAD biasanya menjangka bencana, dan terlalu bimbang tentang hal-hal sehari seperti masalah kesihatan, wang, kematian, masalah keluarga, masalah kawan, masalah hubungan atau kerja kesulitan."@ms .
+
+mh:C094 a mh:Condition ;
+    rdfs:label "kecelaruan panik"@ms ;
+    rdfs:comment "Kecelaruan panik (bahasa Inggeris: panic disorder atau PD ) ialah kecelaruan keresahan yang ditandai dengan serangan panik parah yang berulang. Hal ini juga mungkin termasuk perubahan perilaku yang signifikan dan berlangsung sekurang-kurangnya sebulan dan kebimbangan berterusan tentang implikasi atau keprihatinan tentang diserang serangan lain."@ms .
+
+mh:C095 a mh:Condition ;
+    rdfs:label "tekanan pasca trauma"@ms ;
+    rdfs:comment "Gangguan tekanan pasca trauma ( GTPT ) adalah gangguan mental dan tingkah laku yang berpunca daripada situasi traumatik , seperti serangan seksual, peperangan , kemalangan lalu lintas, penderaan kanak-kanak , keganasan rumah tangga atau apa-apa ancaman lain terhadap kehidupan atau kesejahteraan seseIndividu . Antara gejala yang sering dilihat adalah fikiran yang terganggu, perasaan atau mimpi yang berkaitan dengan situasi traumatik tersebut, tekanan mental atau fizikal kepada isyarat yang berkaitan dengan trauma , percubaan untuk mengelakkan situasi yang berkaitan dengan trauma, perubahan dalam cara seseIndividu berfikir dan perasaan, dan peningkatan dalam respons lari atau lawan ."@ms .
+
+mh:C096 a mh:Condition ;
+    rdfs:label "keresahan"@ms ;
+    rdfs:comment "Keresahan juga dikenali sebagai kegelisahan , kembimbangan , kerisauan atau kekhuatiran adalah emosi yang ditandai dengan sebuah negara yang tidak menyenangkan dari kekacauan batin, sering disertai dengan saraf tingkah laku seperti melangkah mundur dan seterusnya, somatik aduan, dan tindakan. Ia adalah subjektif menyenangkan perasaan takut yang lebih nantikan, seperti perasaan kematian berlaku."@ms .
+
+mh:C099 a mh:Condition ;
+    rdfs:label "bipolar"@ms ;
+    rdfs:comment "Gangguan bipolar , juga dikenali sebagai kemurungan manik , ialah gangguan mental yang menyebabkan tempoh kemurungan dan tempoh mud tinggi . Mud yang tinggi ialah penting dan dikenali sebagai mania atau hipomania, bergantung kepada tahap, atau sama ada gejala kehadiran psikosis ."@ms .
+
+mh:C100 a mh:Condition ;
+    rdfs:label "skizofrenia"@ms ;
+    rdfs:comment "Skizofrenia adalah penyakit mental yang teruk dengan ciri-ciri kecacatan berterusan pada penerimaan seseorang ( perception ) pada gambaran alam sebenar ( realiti ). Seseorang yang mengalami skizofrenia tanpa dirawat biasanya menunjukkan pemikiran yang tidak teratur, dan mungkin mengalami delusi atau halusinasi pendengaran ."@ms .
+
+mh:C101 a mh:Condition ;
+    rdfs:label "kecelaruan personaliti"@ms ;
+    rdfs:comment "Kecelaruan personaliti ialah sekumpulan gangguan mental yang dicirikan oleh corak tingkah laku, pemikiran, dan perasaan jangka panjang yang menunjukkan kepincangan penyesuaian diri. Hal ini berlaku merentasi pelbagai konteks dan tingkat laku seseorang itu tidak diterima oleh budaya seseorang itu."@ms .
+
+mh:C102 a mh:Condition ;
+    rdfs:label "kecelaruan personaliti antisosial"@ms ;
+    rdfs:comment "Kecelaruan personaliti antisosial ( ASPD atau APD ) ialah kecelaruan personaliti yang dicirikan oleh corak jangka panjang yang tidak menghiraukan hak orang lain. Pesakit yang mengalami kecelaruan ini selalunya mempunyai sejarah jenayah serta perwatakan seperti suka membohong berulang kali, membuat perancangan yang buruk, bertindak agresif, kurang mengambil berat terhadap keselamatan orang lain, dan mempunyai sikap acuh tak acuh kemudian diikuti tindakan yang membahayakan orang lain."@ms .
+
+mh:C103 a mh:Condition ;
+    rdfs:label "kecelaruan personaliti histrionik"@ms ;
+    rdfs:comment "Kecelaruan personaliti histrionik ( HPD ) ditakrifkan oleh Persatuan Psikiatri Amerika sebagai gangguan personaliti dicirikan oleh corak tingkah laku mencari perhatian berlebihan, biasanya bermula pada awal kanak-kanak, termasuk penggodaan yang tidak sesuai dan keinginan yang berlebihan untuk mendapatkan pengiktirafan. Orang yang didiagnosis dengan gangguan itu dikatakan meriah, dramatik, lincah, bersemangat, ekstrovert dan genit."@ms .
+
+mh:C104 a mh:Condition ;
+    rdfs:label "kecelaruan personaliti pinggiran"@ms ;
+    rdfs:comment "Kecelaruan personaliti pinggiran ( BPD-borderline personality disorder ) (juga dikenali sebagai Kecelaruan personaliti tidak stabil secara emosi, jenis pinggiran dalam ICD-10 ) merupakan Kecelaruan personaliti kelompok-B disebabkan oleh tingkah laku jangka panjang dimana dicirikan oleh perkara yang tidak normal seperti antaranya hubungan yang tidak stabil dengan orang lain, ketidakstabilan imej diri yang ketara dan emosi yang tidak stabil. Kecelaruan personaliti pinggiran sering datang bersama dengan tingkah laku yang merbahaya, merasa diri kekosongan, perbuatan mencederakan diri dengan sengaja dan ketakutan yang melampau terhadap pengabaian atau ditinggalkan."@ms .
+
+mh:C105 a mh:Condition ;
+    rdfs:label "kecelaruan identiti disosiatif"@ms ;
+    rdfs:comment "Kecelaruan identiti disosiatif ( KID ), juga dikenali sebagai gangguan personaliti berbilang , gangguan personaliti berpecah atau gangguan personaliti disosiatif , adalah salah satu daripada kelas gangguan disosiatif yang dikelaskan oleh DSM-5, DSM-5-TR, ICD-10 , ICD- 11 , dan Manual Merck untuk diagnosis. Ia merupakan diagnosis yang dianggap kontroversi di dalam kelas gangguan mental."@ms .
+
+mh:C106 a mh:Condition ;
+    rdfs:label "gejala somatik"@ms ;
+    mh:has_symptom mh:S158,
+        mh:S159,
+        mh:S160 .
+
+mh:C107 a mh:Condition ;
+    rdfs:label "psikoterapi"@ms ;
+    rdfs:comment "Psikoterapi merupakan istilah umum yang memaksudkan interaksi atau rawatan terapi antara seorang pakar terlatih dengan seorang pelanggan, pesakit, sebuah keluarga, pasangan atau kumpulan. Masalah-masalah yang ditangani bersifat psikologi dan berbagai-bagai bentuk punca, pengaruh, pencetus dan penawarnya."@ms .
+
+mh:C108 a mh:Condition ;
+    rdfs:label "ketakutan"@ms ;
+    rdfs:comment "Ketakutan ialah satu emosi yang amat tidak menyenangkan sebagai tindak balas terhadap melihat atau mengenali bahaya atau ancaman. Ketakutan menyebabkan perubahan psikologi yang mungkin menghasilkan tindak balas tingkah laku seperti meningkatkan tindak balas yang agresif atau melarikan diri daripada ancaman."@ms .
+
+mh:C109 a mh:Condition ;
+    rdfs:label "insomnia"@ms ;
+    rdfs:comment "Insomnia dicirikan dengan ketakupayaan bertidur dan/atau ketidakupayaan bertidur selama tempoh yang munasabah. Penghidap insomnia biasanya merungut kerana tidak berupaya menutup mata atau \"merehatkan minda\" buat melebihi beberapa minit setiap kali."@ms .
+
+mh:C110 a mh:Condition ;
+    rdfs:label "keletihan"@ms ;
+    rdfs:comment "Keletihan atau letih adalah perasaan subjektif keletihan yang mempunyai permulaan yang beransur-ansur. Tidak seperti kelemahan, keletihan dapat dikurangkan dengan masa rehat."@ms .
+
+mh:C111 a mh:Condition ;
+    rdfs:label "kecelaruan ingkar"@ms ;
+    rdfs:comment "Kecelaruan ingkar atau gangguan ingkar ( ODD ) disenaraikan dalam DSM-5 di bawah gangguan menganggu, kawalan impuls, dan tingkah laku serta ditakrifkan sebagai \"corak mood marah/mudah marah, tingkah laku bertengkar/menentang, atau pendendam\" pada kanak-kanak dan remaja. Tidak seperti kanak-kanak dengan gangguan tingkah laku (CD), kanak-kanak dengan gangguan ingkar tidak bersikap agresif terhadap orang atau haiwan, tidak merosakkan harta benda, dan tidak menunjukkan corak mencuri atau tipu daya."@ms .
+
+mh:has_symptom a owl:ObjectProperty ;
+    rdfs:label "has_symptom"@en ;
+    rdfs:domain mh:Condition ;
+    rdfs:range mh:Symptom .
+
+mh:related_to a owl:ObjectProperty ;
+    rdfs:label "related_to"@en ;
+    rdfs:domain mh:Condition ;
+    rdfs:range mh:Condition .
+
+mh:treated_by a owl:ObjectProperty ;
+    rdfs:label "treated_by"@en ;
+    rdfs:domain mh:Condition ;
+    rdfs:range mh:Treatment .
+
+mh:triggered_by a owl:ObjectProperty ;
+    rdfs:label "triggered_by"@en ;
+    rdfs:domain mh:Condition ;
+    rdfs:range mh:Trigger .
+
+mh:C004 a mh:Condition ;
+    rdfs:label "serangan panik"@ms ;
+    mh:related_to mh:C005 ;
+    rdfs:comment "Serangan panik termasuk dalam kecelaruan panik. Kecelaruan panik ditandai oleh serangan keresahan atau ketakutan yang berkala (serangan panik, bahasa Inggeris panic attack )."@ms .
+
+mh:C005 a mh:Condition ;
+    rdfs:label "kegelisahan: macam sama tapi tak serupa!"@ms ;
+    mh:related_to mh:C004 .
+
+mh:C011 a mh:Condition ;
+    rdfs:label "serangan panik - hello doktor"@ms ;
+    mh:related_to mh:C013 ;
+    rdfs:comment "Definisi Apakah itu serangan panik? Serangan panik adalah satu episod ketakutan yang kuat yang mencetuskan tindak balas fizikal yang teruk apabila tidak terdapat sebarang bahaya atau sebab yang jelas."@ms .
+
+mh:C013 a mh:Condition ;
+    rdfs:label "gangguan"@ms ;
+    mh:related_to mh:C011 .
+
+mh:C018 a mh:Condition ;
+    rdfs:label "serangan panik: rasa takut"@ms ;
+    mh:related_to mh:C019 .
+
+mh:C019 a mh:Condition ;
+    rdfs:label "berdebat secara tiba-tiba"@ms ;
+    mh:related_to mh:C018 .
+
+mh:C027 a mh:Condition ;
+    rdfs:label "masalah kemurungan"@ms ;
+    mh:related_to mh:C028 .
+
+mh:C028 a mh:Condition ;
+    rdfs:label "keresahan: 6 salah faham umum"@ms ;
+    mh:related_to mh:C027 .
+
+mh:C031 a mh:Condition ;
+    rdfs:label "fakta"@ms ;
+    mh:related_to mh:C032 .
+
+mh:C032 a mh:Condition ;
+    rdfs:label "mitos tentang kemurungan - hello doktor"@ms ;
+    mh:related_to mh:C031 .
+
+mh:C054 a mh:Condition ;
+    rdfs:label "menangis"@ms ;
+    mh:related_to mh:C055 .
+
+mh:C055 a mh:Condition ;
+    rdfs:label "kesihatan emosi - hello doktor"@ms ;
+    mh:related_to mh:C054 .
+
+mh:C061 a mh:Condition ;
+    rdfs:label "menyanyi"@ms ;
+    mh:related_to mh:C062 .
+
+mh:C062 a mh:Condition ;
+    rdfs:label "menari: benarkah aktiviti ini mampu kurangkan tekanan emosi?"@ms ;
+    mh:related_to mh:C061 .
+
+mh:C063 a mh:Condition ;
+    rdfs:label "rambut beruban disebabkan tekanan emosi"@ms ;
+    mh:related_to mh:C064 .
+
+mh:C064 a mh:Condition ;
+    rdfs:label "banyak berfikir"@ms ;
+    mh:related_to mh:C063 .
+
+mh:C071 a mh:Condition ;
+    rdfs:label "meletakkan pokok atas meja kerja bantu emosi"@ms ;
+    mh:related_to mh:C072 .
+
+mh:C072 a mh:Condition ;
+    rdfs:label "kurangkan tekanan"@ms ;
+    mh:related_to mh:C071 .
+
+mh:C077 a mh:Condition ;
+    rdfs:label "ibu baru: peranan"@ms ;
+    mh:related_to mh:C078 .
+
+mh:C078 a mh:Condition ;
+    rdfs:label "cara mengatasinya - hello doktor"@ms ;
+    mh:related_to mh:C077 .
+
+mh:C097 a mh:Condition ;
+    rdfs:label "kurang daya tumpuan"@ms ;
+    mh:related_to mh:C098 .
+
+mh:C098 a mh:Condition ;
+    rdfs:label "hiperaktif"@ms ;
+    mh:related_to mh:C097 .
+
+mh:S001 a mh:Symptom ;
+    rdfs:label "sakit pada bahagian dada jantung berdegup kencang kesukaran bernafas seperti hiperventilasi menggeletar menggigil loya berpeluh-peluh kesemutan atau kebas pada jari tangan atau kaki anda selain simptom serangan kegelisahan di atas"@ms .
+
+mh:S002 a mh:Symptom ;
+    rdfs:label "anda juga mungkin akan merasakan beberapa perkara lain seperti di bawah ini: tekanan atau ketakutan yang teruk rasa seperti tercekik takut hilang kawalan rasa seperti anda akan mati derealisasi (tidak merasakan realiti di sekeliling) atau depersonalisasi (perasaan terasing daripada diri sendiri) serangan kegelisahan ini sangat tidak menyenangkan"@ms .
+
+mh:S003 a mh:Symptom ;
+    rdfs:label "ia juga boleh menjadi sesuatu yang menakutkan. antara tanda-tanda kegelisahan. jika anda mengalami simptom serangan kegelisahan"@ms .
+
+mh:S004 a mh:Symptom ;
+    rdfs:label "adalah penting untuk berjumpa dengan profesional kesihatan seberapa segera. mereka boleh melakukan diagnosis"@ms .
+
+mh:S005 a mh:Symptom ;
+    rdfs:label "tiada pencetus khusus yang menyebabkan serangan kegelisahan ini terjadi. akan tetapi"@ms .
+
+mh:S006 a mh:Symptom ;
+    rdfs:label "individu yang mempunyai fobia boleh mengalami pencetus berkaitan fobia yang membawa kepada serangan kegelisahan. sebagai contoh"@ms .
+
+mh:S007 a mh:Symptom ;
+    rdfs:label "seseorang yang mempunyai trypanophobia (ketakutan teruk terhadap jarum) mungkin mengalami serangan kegelisahan jika mereka perlu melakukan ujian darah untuk tujuan perubatan . bagi sesetengah individu lain pula"@ms .
+
+mh:S008 a mh:Symptom ;
+    rdfs:label "ketakutan untuk mengalami serangan kegelisahan itu sendiri biasanya sudah cukup untuk menjadi pencetus kepada berlakunya serangan kegelisahan. oleh sebab itu"@ms .
+
+mh:S009 a mh:Symptom ;
+    rdfs:label "adalah amat penting untuk mengambil perhatian bahawa salah satu kriteria untuk gangguan ini ialah ia tidak mempunyai pencetus yang diketahui atau benar-benar jelas. ini punca serangan kegelisahan. bila perlu mendapatkan bantuan? talian yang boleh anda hubungi untuk mendapatkan bantuan. apakah cara merawat kegelisahan? berjumpalah dengan doktor atau profesional kesihatan jika anda telah mengalami gejala gangguan kegelisahan. doktor akan meminta anda menerangkan simptom-simptom yang berlaku"@ms .
+
+mh:S010 a mh:Symptom ;
+    rdfs:label "kekerapan anda mengalaminya"@ms .
+
+mh:S011 a mh:Symptom ;
+    rdfs:label "berapa lama tempoh anda mengalaminya. doktor juga mungkin menjalankan pemeriksaan fizikal untuk menilai keadaan lain yang boleh menyebabkan gejala anda. kita memahami bahawa kadangkala agak sukar untuk bercakap tentang perasaan"@ms .
+
+mh:S012 a mh:Symptom ;
+    rdfs:label "emosi"@ms .
+
+mh:S013 a mh:Symptom ;
+    rdfs:label "kehidupan peribadi masing-masing. anda mungkin mengalami gangguan kegelisahan jika: anda alami serangan yang kerap"@ms .
+
+mh:S014 a mh:Symptom ;
+    rdfs:label "tidak dijangka"@ms .
+
+mh:S015 a mh:Symptom ;
+    rdfs:label "diikuti dengan sekurang-kurangnya kegelisahan berterusan yang berlaku selama sebulan atau"@ms .
+
+mh:S016 a mh:Symptom ;
+    rdfs:label "kegelisahan akan mengalami serangan lain pada masa akan datang"@ms .
+
+mh:S017 a mh:Symptom ;
+    rdfs:label "jantung selalu berdebar"@ms .
+
+mh:S018 a mh:Symptom ;
+    rdfs:label "antara tanda-tanda serangan kegelisahan menurut national institute of mental health (nimh)"@ms .
+
+mh:S019 a mh:Symptom ;
+    rdfs:label "jantung yang berdebar lebih laju daripada biasa merupakan salah satu tanda kegelisahan. kajian menunjukkan"@ms .
+
+mh:S020 a mh:Symptom ;
+    rdfs:label "individu yang sedang mengalami tekanan perasaan akan menghasilkan hormon adrenalin. hormon ini akan menyebabkan jantung mengepam dengan lebih pantas. seperti yang dijelaskan sebelum ini"@ms .
+
+mh:S021 a mh:Symptom ;
+    rdfs:label "tindak balas lawan atau lari pesakit akan diaktifkan ketika mereka rasa gelisah atau bimbang. akibatnya"@ms .
+
+mh:S022 a mh:Symptom ;
+    rdfs:label "jantung pesakit akan berdegup dengan laju tanpa sebab. cara mengawal kegelisahan dengan menonton cerita seram. #"@ms .
+
+mh:S023 a mh:Symptom ;
+    rdfs:label "sering sesak nafas tanda penyakit kegelisahan penghidap kegelisahan akan mengalami hiperventilasi kesan daripada degupan jantung yang terlalu pantas. hiperventilasi akan menyebabkan pernafasan menjadi laju"@ms .
+
+mh:S024 a mh:Symptom ;
+    rdfs:label "mungkin akan membuatkan pesakit sesak nafas. apabila kita bernafas"@ms .
+
+mh:S025 a mh:Symptom ;
+    rdfs:label "kita akan menyedut oksigen"@ms .
+
+mh:S026 a mh:Symptom ;
+    rdfs:label "menghembus karbon dioksida. namun"@ms .
+
+mh:S027 a mh:Symptom ;
+    rdfs:label "jika kita bernafas terlalu laju"@ms .
+
+mh:S028 a mh:Symptom ;
+    rdfs:label "tahap karbon dioksida dalam darah akan berkurang untuk memastikan badan mendapat lebih banyak oksigen. sebab itulah"@ms .
+
+mh:S029 a mh:Symptom ;
+    rdfs:label "pesakit kegelisahan akan nampak ‘kepenatan’ umpama baru selesai berlari! latihan pernafasan amat penting untuk mereka yang menghidap masalah kegelisahan . dengan pernafasan yang betul"@ms .
+
+mh:S030 a mh:Symptom ;
+    rdfs:label "pesakit boleh bernafas dengan perlahan"@ms .
+
+mh:S031 a mh:Symptom ;
+    rdfs:label "menggunakan diafragma untuk lebih relaks"@ms .
+
+mh:S032 a mh:Symptom ;
+    rdfs:label "bertenang. tanda-tanda serangan kegelisahan #"@ms .
+
+mh:S033 a mh:Symptom ;
+    rdfs:label "rasa penat sepanjang masa selain itu"@ms .
+
+mh:S034 a mh:Symptom ;
+    rdfs:label "rasa penat yang berpanjangan juga boleh menjadi petanda kegelisahan . rasa bimbang"@ms .
+
+mh:S035 a mh:Symptom ;
+    rdfs:label "gelisah sepanjang masa boleh menyebabkan badan kita sentiasa berada dalam keadaan ‘berjaga-jaga’. kegelisahan yang dialami juga boleh menyebabkan pesakit sukar untuk tidur"@ms .
+
+mh:S036 a mh:Symptom ;
+    rdfs:label "membuatkan keletihan yang berlaku menjadi bertambah serius. #"@ms .
+
+mh:S037 a mh:Symptom ;
+    rdfs:label "sukar tidur malam kesan kegelisahan terhadap kualiti tidur. jika anda sukar tidur"@ms .
+
+mh:S038 a mh:Symptom ;
+    rdfs:label "atau sering terjaga tengah malam"@ms .
+
+mh:S039 a mh:Symptom ;
+    rdfs:label "tidak boleh tidur semula"@ms .
+
+mh:S040 a mh:Symptom ;
+    rdfs:label "ini mungkin berlaku disebabkan penyakit kegelisahan. tahap hormon tekanan emosi dalam badan yang terlalu tinggi membuatkan pesakit sukar untuk relaks"@ms .
+
+mh:S041 a mh:Symptom ;
+    rdfs:label "tidur lena. masalah ini akan menjadi semakin teruk jika pesakit mengambil kafein pada keesokan harinya untuk kekal berjaga. malah"@ms .
+
+mh:S042 a mh:Symptom ;
+    rdfs:label "simptom penyakit kegelisahan juga akan menjadi lebih teruk disebabkan kopi. #"@ms .
+
+mh:S043 a mh:Symptom ;
+    rdfs:label "otot rasa kejang"@ms .
+
+mh:S044 a mh:Symptom ;
+    rdfs:label "sakit disebabkan penyakit kegelisahan otot manusia akan mengeras"@ms .
+
+mh:S045 a mh:Symptom ;
+    rdfs:label "menjadi kejang sebagai respons semula jadi terhadap tekanan emosi. malah"@ms .
+
+mh:S046 a mh:Symptom ;
+    rdfs:label "mereka yang sering tertekan juga cenderung ‘mengeraskan’ otot mereka tanpa sedar dalam satu tempoh masa yang panjang. oleh sebab itu"@ms .
+
+mh:S047 a mh:Symptom ;
+    rdfs:label "penghidap kegelisahan selalunya akan rasa sakit pada : kawasan bahu belakang badan leher malah"@ms .
+
+mh:S048 a mh:Symptom ;
+    rdfs:label "ada juga yang akan mengetap gigi tanpa sedar"@ms .
+
+mh:S049 a mh:Symptom ;
+    rdfs:label "menyebabkan kesakitan di sekitar rahang. lama-kelamaan"@ms .
+
+mh:S050 a mh:Symptom ;
+    rdfs:label "pesakit boleh menghidap migrain atau sakit kepala disebabkan terlampau tekanan emosi. #"@ms .
+
+mh:S051 a mh:Symptom ;
+    rdfs:label "tidak sedap perut perut kembung"@ms .
+
+mh:S052 a mh:Symptom ;
+    rdfs:label "cirit-birit"@ms .
+
+mh:S053 a mh:Symptom ;
+    rdfs:label "kerap sendawa juga merupakan tanda kegelisahan . walaupun nampak biasa"@ms .
+
+mh:S054 a mh:Symptom ;
+    rdfs:label "semua simptom ini boleh mengganggu kehidupan pesakit jika ia tidak dirawat secepat mungkin. #"@ms .
+
+mh:S055 a mh:Symptom ;
+    rdfs:label "penyakit kegelisahan menyebabkan anda rasa loya tidak dinafikan"@ms .
+
+mh:S056 a mh:Symptom ;
+    rdfs:label "masalah kegelisahan boleh memberikan kesan buruk pada sistem penghadaman seseorang. menurut sebuah kajian yang dimuatkan di dalam jurnal general hospital psychiatry"@ms .
+
+mh:S057 a mh:Symptom ;
+    rdfs:label "individu yang mengalami kegelisahan mempunyai kebarangkalian yang lebih tinggi untuk muntah atau rasa loya selepas makan. #"@ms .
+
+mh:S058 a mh:Symptom ;
+    rdfs:label "tidak berhenti berpeluh kegelisahan menyebabkan individu berpeluh dengan lebih banyak. disebabkan rasa gemuruh"@ms .
+
+mh:S059 a mh:Symptom ;
+    rdfs:label "gelisah yang berpanjangan"@ms .
+
+mh:S060 a mh:Symptom ;
+    rdfs:label "pesakit akan kerap berpeluh lebih-lebih lagi di kawasan tapak tangan atau ketiak. simptom ini juga akan membuatkan penghidap kegelisahan rasa runsing"@ms .
+
+mh:S061 a mh:Symptom ;
+    rdfs:label "rendah keyakinan diri. makin memburukkan keadaan"@ms .
+
+mh:S062 a mh:Symptom ;
+    rdfs:label "pesakit juga mungkin akan alami masalah bau badan yang teruk. simptom penyakit kegelisahan #"@ms .
+
+mh:S063 a mh:Symptom ;
+    rdfs:label "terlebih makan atau kurang selera makan masalah kegelisahan juga boleh membuatkan anda terlebih makan atau kurang selera makan . ada orang yang tidak lalu makan disebabkan rasa tekanan emosi yang berpanjangan. namun"@ms .
+
+mh:S064 a mh:Symptom ;
+    rdfs:label "ada juga yang akan ‘ craving ’ makanan yang manis"@ms .
+
+mh:S065 a mh:Symptom ;
+    rdfs:label "berlemak disebabkan tekanan emosi yang dialami! #"@ms .
+
+mh:S066 a mh:Symptom ;
+    rdfs:label "jari atau tangan menggigil ini merupakan antara tanda-tanda penyakit kegelisahan disorder . kadangkala"@ms .
+
+mh:S067 a mh:Symptom ;
+    rdfs:label "tangan atau jari akan mula menggigil tanpa sebab . menurut nimh"@ms .
+
+mh:S068 a mh:Symptom ;
+    rdfs:label "ini merupakan salah satu kesan sampingan peningkatan hormon tekanan emosi dalam badan. kondisi ini juga boleh mendatangkan bahaya"@ms .
+
+mh:S069 a mh:Symptom ;
+    rdfs:label "lebih-lebih lagi jika ia berlaku ketika anda sedang memandu. kesimpulan jika anda mempunyai tanda-tanda serangan kegelisahan"@ms .
+
+mh:S070 a mh:Symptom ;
+    rdfs:label "cepat-cepatlah berjumpa doktor untuk rawatan susulan. dengan bantuan pakar"@ms .
+
+mh:S071 a mh:Symptom ;
+    rdfs:label "anda dapat belajar cara hilangkan penyakit kegelisahan"@ms .
+
+mh:S073 a mh:Symptom ;
+    rdfs:label "berlaku lebih dari 3 bulan menyebabkan anda mengalami tekanan mengganggu tugasan harian"@ms .
+
+mh:S074 a mh:Symptom ;
+    rdfs:label "kerja"@ms .
+
+mh:S075 a mh:Symptom ;
+    rdfs:label "kehidupan anda simptom emosi melibatkan rasa kemurungan"@ms .
+
+mh:S076 a mh:Symptom ;
+    rdfs:label "kegelisahan"@ms .
+
+mh:S077 a mh:Symptom ;
+    rdfs:label "rasa bersalah"@ms .
+
+mh:S078 a mh:Symptom ;
+    rdfs:label "perasaan yang kosong. simptom lain adalah anhedonia"@ms .
+
+mh:S079 a mh:Symptom ;
+    rdfs:label "emosi yang dikategorikan sebagai hilang minat dalam aktiviti-aktiviti yang dahulunya menyeronokkan. national center for biotechnology information (ncbi)"@ms .
+
+mh:S080 a mh:Symptom ;
+    rdfs:label "mengatakan ia berkemungkinan boleh menyebabkan berlakunya gangguan psikiatri. simptom fizikal ncbi mendokumenkan beberapa laporan mengenai mengenai masalah fizikal berkaitan stres pasca trauma adalah termasuk peningkatan simptom kadar neurologi"@ms .
+
+mh:S081 a mh:Symptom ;
+    rdfs:label "pernafasan"@ms .
+
+mh:S082 a mh:Symptom ;
+    rdfs:label "musculoskeletal"@ms .
+
+mh:S083 a mh:Symptom ;
+    rdfs:label "kardiovaskular. kemurungan"@ms .
+
+mh:S084 a mh:Symptom ;
+    rdfs:label "tekanan"@ms .
+
+mh:S085 a mh:Symptom ;
+    rdfs:label "masalah tidur boleh menyumbang kepada penyakit fizikal. kesan jangka masa pendek"@ms .
+
+mh:S086 a mh:Symptom ;
+    rdfs:label "jangka masa panjang gangguan tekanan selepas trauma boleh menyebabkan kehilangan ingatan jangka pendek"@ms .
+
+mh:S087 a mh:Symptom ;
+    rdfs:label "boleh membawa kesan psikologi jangka panjang yang kronik"@ms .
+
+mh:S088 a mh:Symptom ;
+    rdfs:label "ncbi. nasib baik"@ms .
+
+mh:S089 a mh:Symptom ;
+    rdfs:label "rawatan psikoterapi dapat membantu meringankan"@ms .
+
+mh:S090 a mh:Symptom ;
+    rdfs:label "mengurangkan kesan jangka pendek"@ms .
+
+mh:S091 a mh:Symptom ;
+    rdfs:label "untuk sesetengah individu"@ms .
+
+mh:S092 a mh:Symptom ;
+    rdfs:label "ia mungkin berlaku selepas sebulan atau mungkin setahun selepas kejadian. simptom mungkin datang"@ms .
+
+mh:S093 a mh:Symptom ;
+    rdfs:label "pergi selepas beberapa tahun. oleh kerana itu"@ms .
+
+mh:S094 a mh:Symptom ;
+    rdfs:label "anda perlu perlu mencatatkan sebarang simptom yang anda hadapi"@ms .
+
+mh:S095 a mh:Symptom ;
+    rdfs:label "bincangkan dengan individu yang anda percayai. jika anda hadapi simptom untuk lebih dari 4 minggu"@ms .
+
+mh:S096 a mh:Symptom ;
+    rdfs:label "yang menyebabkan anda berdepan tekanan"@ms .
+
+mh:S097 a mh:Symptom ;
+    rdfs:label "mengganggu kehidupan kerja atau rumah"@ms .
+
+mh:S098 a mh:Symptom ;
+    rdfs:label "anda mungkin alami stres pasca trauma. dapatkanlah bantuan profesional dari doktor atau kaunselor. hello health group tidak memberikan nasihat"@ms .
+
+mh:S101 a mh:Symptom ;
+    rdfs:label "kekosongan"@ms .
+
+mh:S102 a mh:Symptom ;
+    rdfs:label "cemas mempunyai perasaan berputus asa mudah marah untuk perkara yang kecil mudah keletihan"@ms .
+
+mh:S103 a mh:Symptom ;
+    rdfs:label "rasa kehilangan tenaga hilang keinginan untuk melakukan sesuatu yang digemari sebelum ini tidur tidak mencukupi"@ms .
+
+mh:S104 a mh:Symptom ;
+    rdfs:label "atau tidur berlebihan perlahan dalam pergerakan atau pemikiran sukar untuk fokus merasa sakit pada bahagian belakang"@ms .
+
+mh:S105 a mh:Symptom ;
+    rdfs:label "kepala tetapi tidak mengetahui sebabnya rasa bersalah"@ms .
+
+mh:S106 a mh:Symptom ;
+    rdfs:label "tidak berguna. menyalahkan diri sendiri atas kesilapan individu lain berkeinginan untuk membunuh diri atau mencuba untuk membunuh diri jika anda mengalami simptom seperti ini sepanjang hari"@ms .
+
+mh:S107 a mh:Symptom ;
+    rdfs:label "berlarutan sehingga 2 minggu atau lebih"@ms .
+
+mh:S108 a mh:Symptom ;
+    rdfs:label "anda mungkin mengalami kemurungan. berjumpalah doktor untuk memeriksa keadaan sebenar diri anda. tanda kemurungan bagi kanak-kanak"@ms .
+
+mh:S109 a mh:Symptom ;
+    rdfs:label "remaja simptom yang dihadapi kanak-kanak"@ms .
+
+mh:S110 a mh:Symptom ;
+    rdfs:label "remaja mungkin berbeza dari individu dewasa. bagi kanak-kanak"@ms .
+
+mh:S111 a mh:Symptom ;
+    rdfs:label "mereka mungkin merasa sedih"@ms .
+
+mh:S112 a mh:Symptom ;
+    rdfs:label "terganggu"@ms .
+
+mh:S113 a mh:Symptom ;
+    rdfs:label "jengkel"@ms .
+
+mh:S114 a mh:Symptom ;
+    rdfs:label "bimbang"@ms .
+
+mh:S115 a mh:Symptom ;
+    rdfs:label "sakit kepala"@ms .
+
+mh:S116 a mh:Symptom ;
+    rdfs:label "sakit belakang"@ms .
+
+mh:S117 a mh:Symptom ;
+    rdfs:label "yang menyebabkan mereka tidak mahu pergi ke sekolah. mereka mungkin menghadapi masalah untuk makan bagi remaja"@ms .
+
+mh:S118 a mh:Symptom ;
+    rdfs:label "mereka akan berasa sedih"@ms .
+
+mh:S119 a mh:Symptom ;
+    rdfs:label "berfikiran negatif"@ms .
+
+mh:S120 a mh:Symptom ;
+    rdfs:label "merasa tidak berguna"@ms .
+
+mh:S121 a mh:Symptom ;
+    rdfs:label "sensitif. mereka mungkin merasakan prestasi mereka adalah teruk"@ms .
+
+mh:S122 a mh:Symptom ;
+    rdfs:label "mereka mungkin menggunakan alkohol"@ms .
+
+mh:S123 a mh:Symptom ;
+    rdfs:label "merokok sebagai penyelesaian terhadap masalah mereka tanda kemurungan bagi individu lebih berusia simptom kepada individu yang lebih berusia mungkin sukar untuk dikenal pasti kerana ia mungkin dianggap sebagai sesuatu yang normal seiring dengan pertambahan usia. walau bagaimanapun"@ms .
+
+mh:S124 a mh:Symptom ;
+    rdfs:label "kemurungan pada individu yang berusia perlu dirawat. antara simptom biasa yang boleh dilihat: mengalami kesukaran untuk mengingati sesuatu merasa sakit kepala atau kesakitan menjadi mudah lebih mengalami masalah tidur merasa tidak berguna"@ms .
+
+mh:S125 a mh:Symptom ;
+    rdfs:label "tidak berdaya lebih gemar duduk di rumah berbanding keluar terfikir untuk membunuh diri senarai di atas adalah tanda-tanda kemurungan yang mungkin berlaku"@ms .
+
+mh:S126 a mh:Symptom ;
+    rdfs:label "dihadapi oleh seseorang individu. sesetengahnya mungkin menghadapi semua simptom yang disebutkan di atas"@ms .
+
+mh:S127 a mh:Symptom ;
+    rdfs:label "namun"@ms .
+
+mh:S128 a mh:Symptom ;
+    rdfs:label "terdapat juga individu yang hanya mengalami sebahagian daripadanya. anda boleh merujuk tanda-tanda ini untuk menentukan sama ada ia adalah masalah kemurungan atau tidak. hello health group tidak memberikan nasihat"@ms .
+
+mh:S129 a mh:Symptom ;
+    rdfs:label "tertekan"@ms .
+
+mh:S130 a mh:Symptom ;
+    rdfs:label "malas"@ms .
+
+mh:S131 a mh:Symptom ;
+    rdfs:label "keletihan yang berlebihan"@ms .
+
+mh:S132 a mh:Symptom ;
+    rdfs:label "mungkin tanda yang paling mudah dikenal pasti: hilang minat dalam aktiviti yang menyeronokkan"@ms .
+
+mh:S133 a mh:Symptom ;
+    rdfs:label "yang dikenali sebagai anhedonia. simptom-simptomnya beberapa laman web psikologi popular telah menawarkan ujian untuk membantu anda mendiagnosis depresi dengan sendiri. berikut adalah contohnya. jika anda mengalami lebih separuh daripada tanda-tanda ini maka sila berwaspada"@ms .
+
+mh:S134 a mh:Symptom ;
+    rdfs:label "keluarga"@ms .
+
+mh:S135 a mh:Symptom ;
+    rdfs:label "memilih untuk bersendirian. terpenjara: anda tidak boleh meluahkan perasaan anda. anda menjadi pendiam"@ms .
+
+mh:S136 a mh:Symptom ;
+    rdfs:label "malu. benci pada diri sendiri: anda benci kepada diri anda apabila melihat di cermin. ritual yang memakan diri: anda terlibat dalam tingkah laku yang merosakkan seperti minum alkohol"@ms .
+
+mh:S137 a mh:Symptom ;
+    rdfs:label "mengambil dadah atau makan berlebihan"@ms .
+
+mh:S138 a mh:Symptom ;
+    rdfs:label "walaupun sedar dengan kesan buruknya. bermain dengan kematian: anda bertindak secara melulu atau membahayakandiri"@ms .
+
+mh:S139 a mh:Symptom ;
+    rdfs:label "tidak peduli jika anda mendapat cedera parah atau mati. kehidupan adalah sesuatu yang menyusahkan: anda berasa bahawa dunia tidak selari dengan anda. tidak reslistik: anda mempunyai sensasi bahawa hidup anda tidak benar. tiada perkataan yang boleh anda gunakan: anda merasa sukar untuk berkongsi perasaan anda kepada rakan-rakan"@ms .
+
+mh:S140 a mh:Symptom ;
+    rdfs:label "keluarga dalam perkataan. sila ingat bahawa"@ms .
+
+mh:S141 a mh:Symptom ;
+    rdfs:label "jika anda mengenal pasti sebarang tanda-tanda amaran bagi depresi"@ms .
+
+mh:S142 a mh:Symptom ;
+    rdfs:label "sila hubungi pakar kesihatan mental serta-merta"@ms .
+
+mh:S143 a mh:Symptom ;
+    rdfs:label "atau pergi ke bahagian kegelisahan hospital tempatan untuk membuat penialian"@ms .
+
+mh:S144 a mh:Symptom ;
+    rdfs:label "rawatan segera"@ms .
+
+mh:S145 a mh:Symptom ;
+    rdfs:label "rasa terlalu gembira untuk jangka waktu yang panjang. kurang keperluan untuk tidur. bercakap dengan cepat"@ms .
+
+mh:S146 a mh:Symptom ;
+    rdfs:label "selalunya dengan pemikiran yang cepat. berasa sangat gelisah atau impulsif. menjadi mudah terganggu. terlebih keyakinan diri dalam kebolehan anda. terlibat dalam tingkah laku berisiko"@ms .
+
+mh:S147 a mh:Symptom ;
+    rdfs:label "seperti mengadakan hubungan seks rambang"@ms .
+
+mh:S148 a mh:Symptom ;
+    rdfs:label "berjudi dengan wang simpanan"@ms .
+
+mh:S149 a mh:Symptom ;
+    rdfs:label "atau berbelanja besar. 7 tanda kemurungan seperti mania"@ms .
+
+mh:S150 a mh:Symptom ;
+    rdfs:label "kemurungan boleh menyebabkan simptom-simptom lain juga"@ms .
+
+mh:S151 a mh:Symptom ;
+    rdfs:label "tetapi di sini terdapat 7 tanda utama kemurungan daripada kecelaruan bipolar: berasa sedih atau putus asa untuk tempoh masa yang lama. memencilkan diri daripada rakan"@ms .
+
+mh:S152 a mh:Symptom ;
+    rdfs:label "ahli keluarga. kehilangan minat dalam aktiviti yang pernah anda gemari. mempunyai perubahan ketara dalam selera makan. berasa keletihan atau kurang tenaga. mempunyai masalah dengan ingatan"@ms .
+
+mh:S153 a mh:Symptom ;
+    rdfs:label "tumpuan"@ms .
+
+mh:S154 a mh:Symptom ;
+    rdfs:label "membuat keputusan. memikirkan atau mencuba bunuh diri"@ms .
+
+mh:S155 a mh:Symptom ;
+    rdfs:label "atau kerap berfikir tentang kematian. jika anda menemui doktor sewaktu episod kemurungan"@ms .
+
+mh:S156 a mh:Symptom ;
+    rdfs:label "belum pernah mengalami mania"@ms .
+
+mh:S157 a mh:Symptom ;
+    rdfs:label "anda mungkin akan didiagnosis dengan kemurungan. fakta kajian mendapati bahawa kira-kira 15% pesakit didiagnosis dengan kecelaruan kemurungan major sebenarnya menderita penyakit bipolar. kemurungan boleh sebabkan bipolar. punca penyakit bipolar atau faktor risiko pada pesakit yang didiagnosis dengan kecelaruan kemurungan major termasuklah: sekurang-kurangnya dua episod mood melampau di masa lalu sejarah keluarga dengan tanda jenis mania kejadian simptom psikiatri pertama sebelum usia 30 tahun episod kemurungan semasa berlangsung kurang daripada satu bulan ketidakstabilan mood dengan antidepresan mengalami perasaan bercampur maklumkan kepada doktor jika anda mengalami sebarang simptom atau ciri-ciri bipolar disorder malaysia mahupun keadaan mental yang lain"@ms .
+
+mh:S158 a mh:Symptom ;
+    rdfs:label "gangguan ini selalu bermula pada fasa akhir perkembangan kanak-kanak. keadaan ini disifatkan oleh orang mesir purba"@ms .
+
+mh:S159 a mh:Symptom ;
+    rdfs:label "kemudiannya berlaku pada tahun 1900-an sebagai histeria . nama semasanya diperkenalkan pada 2013 dalam manual diagnostik"@ms .
+
+mh:S160 a mh:Symptom ;
+    rdfs:label "statistik gangguan mental edisi kelima (dsm-v)"@ms .
+
+mh:STR001 a mh:Strategy ;
+    rdfs:label "cuba tukarkannya kepada perspektif yang lebih positif lakukan senaman: aktiviti seperti berjoging atau berenang boleh mengurangkan hormon tekanan emosi"@ms .
+
+mh:STR002 a mh:Strategy ;
+    rdfs:label "meningkatkan rasa gembira teknik relaksasi: kaedah seperti meditasi atau yoga boleh membantu menenangkan jiwa anda. bagi mereka yang beragama islam"@ms .
+
+mh:STR003 a mh:Strategy ;
+    rdfs:label "alkohol : kedua-dua bahan ini merupakan pantang larang kegelisahan"@ms .
+
+mh:STR004 a mh:Strategy ;
+    rdfs:label "fokus kepada pernafasan anda. tip untuk mengatasi kegelisahan. teknik pernafasan diafragma sangat membantu. caranya adalah dengan menarik nafas secara dalam melalui hidung"@ms .
+
+mh:STR005 a mh:Strategy ;
+    rdfs:label "ajarkan mereka teknik ini untuk membantu meredakan serangan kegelisahan yang dialami. kesimpulan walaupun serangan kegelisahan boleh mengganggu aktiviti seharian kita"@ms .
+
+mh:STR006 a mh:Strategy ;
+    rdfs:label "teknik yang betul"@ms .
+
+mh:STR007 a mh:Strategy ;
+    rdfs:label "ketahuilah bahawa secawan kopi bersaiz ‘grande’ mengandungi hampir 310 mg kafein! pantang larang kegelisahan 2: gula suka teh ais"@ms .
+
+mh:STR008 a mh:Strategy ;
+    rdfs:label "bertenaga. pantang larang kegelisahan 4: minuman beralkohol minuman beralkohol tidak akan menghilangkan masalah anda"@ms .
+
+mh:STR009 a mh:Strategy ;
+    rdfs:label "sebarang minuman beralkohol merupakan pantang larang kegelisahan ! menurut pakar"@ms .
+
+mh:STR010 a mh:Strategy ;
+    rdfs:label "kafein. kedua minuman ini adalah pantang larang kegelisahan. dapatkan tidur yang mencukupi. bersenam setiap hari juga merupakan cara hilangkan serangan kegelisahan yang berkesan. senaman dapat membuatkan mood anda stabil. berpandangan positif. belajar tentang kondisi anda"@ms .
+
+mh:STR011 a mh:Strategy ;
+    rdfs:label "pastinya dapat membuatkan anda ketawa. pernafasan mendalam + yoga + tekanan kepada mental boleh mengaktifkan sistem saraf simpatetik anda . ia akan memberikan isyarat kepada badan untuk berada dalam mood fight or flight – tindak balas melawan atau membiarkan sesuatu perkara itu berlalu. dalam tindak balas itu"@ms .
+
+mh:STR012 a mh:Strategy ;
+    rdfs:label "yoga atau sebarang kaedah meditasi adalah cara mengatasi kegelisahan yang dapat membantu mengawal tindak balas ini. tujuannya adalah untuk memperlahankan kembali denyutan"@ms .
+
+mh:STR013 a mh:Strategy ;
+    rdfs:label "lakukan teknik relaksasi ketika anda sedang mengalami kemarahan"@ms .
+
+mh:STR014 a mh:Strategy ;
+    rdfs:label "cuba lakukan teknik-teknik relaksasi seperti menarik nafas berulang kali atau melakukan senaman yoga. anda juga boleh bersenam kerana senaman boleh menenangkan otak"@ms .
+
+mh:T001 a mh:Trigger ;
+    rdfs:label "kegelisahan sosial gangguan kegelisahan umum gangguan tekanan emosi pasca-trauma ( stres pasca trauma ) gangguan kegelisahan boleh menjejaskan cara seseorang berfikir"@ms .
+
+mh:T002 a mh:Trigger ;
+    rdfs:label "merasa"@ms .
+
+mh:T003 a mh:Trigger ;
+    rdfs:label "bertindak"@ms .
+
+mh:T004 a mh:Trigger ;
+    rdfs:label "boleh menimbulkan gejala fizikal yang serius. memahami punca penyakit kegelisahan"@ms .
+
+mh:T005 a mh:Trigger ;
+    rdfs:label "emosi. mari kita kenali punca punca kegelisahan serta cara untuk mengenali"@ms .
+
+mh:T006 a mh:Trigger ;
+    rdfs:label "mengatasinya. punca penyakit kegelisahan tujuh perkara di bawah ini adalah faktor pemicu yang paling biasa yang mencetuskan tanda tanda kegelisahan : #"@ms .
+
+mh:T007 a mh:Trigger ;
+    rdfs:label "pemakanan"@ms .
+
+mh:T008 a mh:Trigger ;
+    rdfs:label "kafein pengambilan makanan"@ms .
+
+mh:T009 a mh:Trigger ;
+    rdfs:label "minuman berkafein boleh mencetuskan kegelisahan. pemakanan yang tidak seimbang boleh mempengaruhi mood"@ms .
+
+mh:T010 a mh:Trigger ;
+    rdfs:label "meningkatkan kegelisahan. misalnya"@ms .
+
+mh:T011 a mh:Trigger ;
+    rdfs:label "kekurangan vitamin b"@ms .
+
+mh:T012 a mh:Trigger ;
+    rdfs:label "omega-3 boleh menyebabkan simptom kegelisahan muncul. pengambilan kafein yang berlebihan juga boleh meningkatkan tanda tanda kegelisahan seperti degupan jantung"@ms .
+
+mh:T013 a mh:Trigger ;
+    rdfs:label "tekanan darah"@ms .
+
+mh:T014 a mh:Trigger ;
+    rdfs:label "yang kemudiannya menimbulkan rasa gelisah. mengetahui jenis makanan yang meningkatkan atau mengurangkan kegelisahan dapat membantu dalam pengurusan mood harian anda. #"@ms .
+
+mh:T015 a mh:Trigger ;
+    rdfs:label "persekitaran sosial"@ms .
+
+mh:T016 a mh:Trigger ;
+    rdfs:label "hubungan interpersonal lingkungan sosial yang buruk"@ms .
+
+mh:T017 a mh:Trigger ;
+    rdfs:label "termasuklah hubungan yang toksik atau tekanan di tempat kerja"@ms .
+
+mh:T018 a mh:Trigger ;
+    rdfs:label "boleh mencetuskan kegelisahan. kekurangan sokongan sosial atau berasa terpinggir juga boleh menyebabkan kegelisahan. membina hubungan yang sihat"@ms .
+
+mh:T019 a mh:Trigger ;
+    rdfs:label "mendapat sokongan daripada rakan-rakan"@ms .
+
+mh:T020 a mh:Trigger ;
+    rdfs:label "keluarga boleh membantu mengelakkan keadaan ini. #"@ms .
+
+mh:T021 a mh:Trigger ;
+    rdfs:label "punca penyakit kegelisahan: keadaan kesihatan fizikal kesihatan fizikal sememangnya berkait rapat dengan kesihatan mental anda. penyakit kronik"@ms .
+
+mh:T022 a mh:Trigger ;
+    rdfs:label "kesakitan berterusan"@ms .
+
+mh:T023 a mh:Trigger ;
+    rdfs:label "atau kegelisahan tentang potensi masalah kesihatan juga boleh mencetuskan kegelisahan. 7 simptom kegelisahan disorder . terdapat juga penyakit seperti tiroid hiperaktif yang boleh memicu gejala kegelisahan. komunikasi secara terbuka dengan profesional kesihatan dapat membantu dalam pengurusan simptom ini. #"@ms .
+
+mh:T024 a mh:Trigger ;
+    rdfs:label "masalah kewangan masalah kewangan sering kali menjadi punca kegelisahan depresi . tekanan untuk membayar bil"@ms .
+
+mh:T025 a mh:Trigger ;
+    rdfs:label "kehilangan pekerjaan"@ms .
+
+mh:T026 a mh:Trigger ;
+    rdfs:label "atau pembayaran hutang boleh mengakibatkan kegelisahan kronik. pengurusan kewangan yang bijak seperti menyediakan bajet"@ms .
+
+mh:T027 a mh:Trigger ;
+    rdfs:label "menyimpan wang simpanan"@ms .
+
+mh:T028 a mh:Trigger ;
+    rdfs:label "boleh membantu mengurangkan tekanan emosi kewangan"@ms .
+
+mh:T029 a mh:Trigger ;
+    rdfs:label "kegelisahan yang berkaitan. #"@ms .
+
+mh:T030 a mh:Trigger ;
+    rdfs:label "punca penyakit kegelisahan: bahan kimia"@ms .
+
+mh:T031 a mh:Trigger ;
+    rdfs:label "ubat-ubatan penggunaan bahan kimia termasuklah alkohol"@ms .
+
+mh:T032 a mh:Trigger ;
+    rdfs:label "dadah"@ms .
+
+mh:T033 a mh:Trigger ;
+    rdfs:label "boleh mencetuskan atau memburukkan lagi gejala penyakit kegelisahan . ubat-ubatan seperti pil diet atau ubat yang mengandungi kafein juga boleh meningkatkan simptom kegelisahan. sebaiknya"@ms .
+
+mh:T034 a mh:Trigger ;
+    rdfs:label "anda perlu berhenti atau mengurangkan penggunaan bahan-bahan ini dengan bantuan profesional kesihatan. cara ini boleh membantu mengurangkan simptom kegelisahan daripada berlaku. #"@ms .
+
+mh:T035 a mh:Trigger ;
+    rdfs:label "peristiwa traumatik pengalaman trauma boleh menyebabkan kegelisahan . pengalaman traumatik seperti kemalangan"@ms .
+
+mh:T036 a mh:Trigger ;
+    rdfs:label "peperangan"@ms .
+
+mh:T037 a mh:Trigger ;
+    rdfs:label "atau menjadi mangsa jenayah boleh meninggalkan kesan mendalam"@ms .
+
+mh:T038 a mh:Trigger ;
+    rdfs:label "mencetuskan stres pasca trauma. stres pasca trauma merupakan antara jenis gangguan kegelisahan yang agak kuat. terapi seperti emdr boleh digunakan untuk merawat trauma"@ms .
+
+mh:T039 a mh:Trigger ;
+    rdfs:label "mengurangkan simptom kegelisahan yang berkaitan. #"@ms .
+
+mh:T040 a mh:Trigger ;
+    rdfs:label "kecenderungan genetik"@ms .
+
+mh:T041 a mh:Trigger ;
+    rdfs:label "biokimia faktor genetik"@ms .
+
+mh:T042 a mh:Trigger ;
+    rdfs:label "biokimia turut berperanan dalam risiko penyakit kegelisahan ini. sejarah keluarga yang mempunyai gangguan kegelisahan"@ms .
+
+mh:T043 a mh:Trigger ;
+    rdfs:label "atau ketidakseimbangan kimia dalam otak boleh menjadi antara faktor risikonya. namun"@ms .
+
+mh:T044 a mh:Trigger ;
+    rdfs:label "ia boleh dikendalikan dengan bantuan melalui ubat-ubatan atau terapi. kesimpulan kini anda telah mengetahui 7 punca penyakit kegelisahan yang biasa berlaku. ambil perhatian bahawa kegelisahan adalah respons kompleks yang dipengaruhi oleh banyak faktor. ia boleh meliputi soal pemakanan"@ms .
+
+mh:T045 a mh:Trigger ;
+    rdfs:label "hubungan sosial hingga kepada faktor kesihatan fizikal"@ms .
+
+mh:T046 a mh:Trigger ;
+    rdfs:label "tanda-tanda serangan kegelisahan adalah langkah penting dalam mengendalikannya. dalam kebanyakan kes"@ms .
+
+mh:T047 a mh:Trigger ;
+    rdfs:label "bantuan daripada profesional kesihatan mental adalah penting dalam mencari pendekatan yang paling sesuai"@ms .
+
+mh:T048 a mh:Trigger ;
+    rdfs:label "berkesan"@ms .
+
+mh:T049 a mh:Trigger ;
+    rdfs:label "anak takut gelap"@ms .
+
+mh:T050 a mh:Trigger ;
+    rdfs:label "raksasa@hantu? ketahui fobia lazim bayi"@ms .
+
+mh:T051 a mh:Trigger ;
+    rdfs:label "kanak-kanak & remaja takut tinggi? takut air? ini merupakan jenis fobia yang mungkin anda alami simptom coulrophobia sama seperti fobia-fobia yang lain"@ms .
+
+mh:T052 a mh:Trigger ;
+    rdfs:label "individu yang menghidap fobia badut akan mempunyai rasa takut yang amat sangat apabila berhadapan dengan objek yang mereka takuti. selain itu"@ms .
+
+mh:T053 a mh:Trigger ;
+    rdfs:label "simptom lain termasuklah: berpeluh muntah atau mual rasa takut degup jantung jadi pantas"@ms .
+
+mh:T054 a mh:Trigger ;
+    rdfs:label "nafas laju menangis atau menjerit rasa marah jika dipaksa berada dalam tempat yang sama dengan badut bolehkah penyakit fobia ini dirawat? rasa takut terhadap badut akan dirawat sama seperti fobia lain iaitu dengan cara mengelakkan diri dari berjumpa objek yang boleh mencetuskan fobia tersebut. mujurlah fobia ini tidak akan membuatkan penghidapnya sukar untuk menjalani hari mereka dengan normal. bukan seperti fobia untuk tidur ataupun fobia ketika berada dalam ruang yang sempit"@ms .
+
+mh:T055 a mh:Trigger ;
+    rdfs:label "coulphobia masih boleh dielakkan"@ms .
+
+mh:T056 a mh:Trigger ;
+    rdfs:label "tidak memberi kesan buruk kepada kesihatan penghidapnya. walau bagaimanapun"@ms .
+
+mh:T057 a mh:Trigger ;
+    rdfs:label "jika anda rasa anda mempunyai coulphobia"@ms .
+
+mh:T058 a mh:Trigger ;
+    rdfs:label "ingin mendapatkan rawatan lanjut"@ms .
+
+mh:T059 a mh:Trigger ;
+    rdfs:label "anda boleh buat demikian dengan melawat klinik ataupun hospital terdekat. pesakit fobia jenis coulphobia boleh melalui terapi kognitif tingkah laku untuk membantu mereka kenal pasti rasa takut yang sebenar"@ms .
+
+mh:T060 a mh:Trigger ;
+    rdfs:label "bezakannya dengan rasa takut yang terhasil akibat daripada imaginasi sahaja. dalam sesetengah kes"@ms .
+
+mh:T061 a mh:Trigger ;
+    rdfs:label "ubat untuk merawat kegelisahan boleh diberikan kepada pesakit untuk bantu melegakan simptom yang mampu membuatkan penghidap fobia ini tekanan emosi"@ms .
+
+mh:T062 a mh:Trigger ;
+    rdfs:label "kegelisahan"@ms .
+
+mh:T063 a mh:Trigger ;
+    rdfs:label "kesengsaraan kekeliruan"@ms .
+
+mh:T064 a mh:Trigger ;
+    rdfs:label "mudah terlupa mudah hilang fokus pengambilan alkohol berlebihan berhalusinasi tertekan sering membuat keputusan terburu-buru melulu"@ms .
+
+mh:T065 a mh:Trigger ;
+    rdfs:label "cuai bercakap laju kesukaran memahami"@ms .
+
+mh:T066 a mh:Trigger ;
+    rdfs:label "menyampaikan maklumat perubahan selera"@ms .
+
+mh:T067 a mh:Trigger ;
+    rdfs:label "berat badan kelesuan haid tidak teratur loya gangguan tidur faktor yang menyebabkan berlakunya perubahan keadaan mental seperti gangguan bipolar"@ms .
+
+mh:T068 a mh:Trigger ;
+    rdfs:label "gangguan cyclothymic"@ms .
+
+mh:T069 a mh:Trigger ;
+    rdfs:label "gangguan kemurungan utama"@ms .
+
+mh:T070 a mh:Trigger ;
+    rdfs:label "dysthymia"@ms .
+
+mh:T071 a mh:Trigger ;
+    rdfs:label "gangguan emosi"@ms .
+
+mh:T072 a mh:Trigger ;
+    rdfs:label "gangguan ketidaksuburan juga boleh menyebabkan perubahan emosi ini. skizofrenia"@ms .
+
+mh:T073 a mh:Trigger ;
+    rdfs:label "kecelaruan hiperaktif kurang daya tumpuan (adhd) juga boleh mengakibatkan berlakunya perubahan dalam emosi. ketidakstabilan hormon boleh mengganggu kimia otak yang akhirnya merubah emosi individu. remaja"@ms .
+
+mh:T074 a mh:Trigger ;
+    rdfs:label "wanita hamil"@ms .
+
+mh:T075 a mh:Trigger ;
+    rdfs:label "wanita yang berdepan dengan menopaus sering mengalami ketidakstabilan hormon"@ms .
+
+mh:T076 a mh:Trigger ;
+    rdfs:label "sekali gus mendedahkan mereka kepada perubahan emosi ini. penggunaan dadah"@ms .
+
+mh:T077 a mh:Trigger ;
+    rdfs:label "alkohol boleh memberikan kesan negatif kepada emosi. penyalahgunaan bahan ini boleh menyebabkan ketagihan"@ms .
+
+mh:T078 a mh:Trigger ;
+    rdfs:label "mengganggu keadaan mental individu. keadaan kesihatan lain seperti yang menjejaskan fungsi paru-paru"@ms .
+
+mh:T079 a mh:Trigger ;
+    rdfs:label "sistem kardiovaskular"@ms .
+
+mh:T080 a mh:Trigger ;
+    rdfs:label "tiroid"@ms .
+
+mh:T081 a mh:Trigger ;
+    rdfs:label "emosi boleh berubah disebabkan beberapa perkara lain"@ms .
+
+mh:T082 a mh:Trigger ;
+    rdfs:label "termasuklah tekanan"@ms .
+
+mh:T083 a mh:Trigger ;
+    rdfs:label "perubahan kehidupan"@ms .
+
+mh:T084 a mh:Trigger ;
+    rdfs:label "diet pemakanan"@ms .
+
+mh:T085 a mh:Trigger ;
+    rdfs:label "corak tidur"@ms .
+
+mh:T086 a mh:Trigger ;
+    rdfs:label "ia tidak seharusnya menjadi kegelisahan. tetapi"@ms .
+
+mh:T087 a mh:Trigger ;
+    rdfs:label "seandainya emosi yang berubah ini berterusan"@ms .
+
+mh:T088 a mh:Trigger ;
+    rdfs:label "mendatangkan kesan kepada kehidupan seharian anda"@ms .
+
+mh:T089 a mh:Trigger ;
+    rdfs:label "ia perlu diberi perhatian. contohnya"@ms .
+
+mh:T090 a mh:Trigger ;
+    rdfs:label "jika perasaan yang anda lalui membuatkan anda melibatkan diri dalam tingkah laku yang merosakkan atau mencederakan diri sendiri"@ms .
+
+mh:T091 a mh:Trigger ;
+    rdfs:label "anda perlu berjumpa doktor. kaedah merawat seandainya perubahan emosi yang berlaku disebabkan pengambilan ubatan"@ms .
+
+mh:T092 a mh:Trigger ;
+    rdfs:label "merawat keadaan akan dapat membantu anda mengawal emosi. gabungan terapi"@ms .
+
+mh:T093 a mh:Trigger ;
+    rdfs:label "ubatan dengan perubahan gaya hidup yang positif sangat berkesan dalam menangani perubahan berkaitan emosi ini. berikut adalah antara perkara yang boleh anda lakukan untuk membantu diri sendiri: kekal dengan jadual harian lakukan senaman secara teratur dapatkan tidur yang berkualiti menjaga pemakanan amalkan yoga atau bermeditasi hindari perkara yang boleh mendatangkan tekanan berbual dengan individu yang anda percaya"@ms .
+
+mh:T094 a mh:Trigger ;
+    rdfs:label "aspek pencapaian peribadi (keputusan cemerlang"@ms .
+
+mh:T095 a mh:Trigger ;
+    rdfs:label "mendapat pekerjaan yang bagus kelak). aspek sahsiah (berperangai elok"@ms .
+
+mh:T096 a mh:Trigger ;
+    rdfs:label "memfokuskan kepada tatasusila anak). keputusan tersebut kemudiannya dibandingkan dengan gred peperiksaan yang dicapai"@ms .
+
+mh:T097 a mh:Trigger ;
+    rdfs:label "sahsiah mereka di sekolah. ibu bapa yang menekankan konsep sahsiah dalam hidup mempunyai anak yang mencapai keputusan baik dalam peperiksaan"@ms .
+
+mh:T098 a mh:Trigger ;
+    rdfs:label "tingkah laku. antara lain punca tekanan emosi"@ms .
+
+mh:T099 a mh:Trigger ;
+    rdfs:label "mereka yang ditekankan dengan kejayaan akademik pula berisiko untuk alami masalah kemurungan"@ms .
+
+mh:T100 a mh:Trigger ;
+    rdfs:label "keresahan"@ms .
+
+mh:T101 a mh:Trigger ;
+    rdfs:label "kurang keyakinan diri"@ms .
+
+mh:T102 a mh:Trigger ;
+    rdfs:label "masalah dalam pelajaran. perkara ini jelas menunjukkan bahawa punca tekanan emosi"@ms .
+
+mh:T103 a mh:Trigger ;
+    rdfs:label "tekanan untuk mencapai keputusan cemerlang boleh mempengaruhi keperibadian pelajar"@ms .
+
+mh:T104 a mh:Trigger ;
+    rdfs:label "keputusan akademik yang bakal dicapai oleh mereka. sudah berapa banyak berita yang dilaporkan di akhbar berkenaan dengan kes pelajar bunuh diri kerana tertekan dengan punca tekanan emosi dalam keluarga untuk capai prestasi lebih baik. secara tidak langsung"@ms .
+
+mh:T105 a mh:Trigger ;
+    rdfs:label "punca tekanan emosi"@ms .
+
+mh:T106 a mh:Trigger ;
+    rdfs:label "tekanan"@ms .
+
+mh:T107 a mh:Trigger ;
+    rdfs:label "desakan yang diberikan seakan-akan menunjukkan ibu bapa tidak percaya akan keupayaan anak. saban tahun"@ms .
+
+mh:T108 a mh:Trigger ;
+    rdfs:label "hormat orang lain"@ms .
+
+mh:T109 a mh:Trigger ;
+    rdfs:label "sahsiah terpuji juga satu bentuk kejayaan yang dicapai oleh anak anda. jangan lupa untuk puji mereka sekiranya mereka cemerlang dalam aspek sahsiah hidup. ia akan membentuk atitud positif"@ms .
+
+mh:T110 a mh:Trigger ;
+    rdfs:label "tekanan daripada ibu bapa boleh menjadi punca tekanan emosi kepada anak-anak untuk berusaha memperbaiki diri. perhatian! berikan ruang untuk buktikan kemampuan diri mereka. jangan lupa"@ms .
+
+mh:T111 a mh:Trigger ;
+    rdfs:label "jika anak anda berjaya dalam aspek tertentu"@ms .
+
+mh:T112 a mh:Trigger ;
+    rdfs:label "tidak kiralah sekecil mana pun"@ms .
+
+mh:T113 a mh:Trigger ;
+    rdfs:label "pujilah mereka. [embed-health-tool-child-growth-chart]"@ms .
+
+mh:T114 a mh:Trigger ;
+    rdfs:label "punca utama yang boleh mencetuskan tekanan emosi di tempat kerja adalah: budaya sesuatu organisasi pengurusan yang lemah permintaan pekerjaan tempat pekerjaan fizikal hubungan sesama pekerja kurangnya sokongan perubahan dalam polisi pengurusan konflik peraturan trauma kerja lebih masa ‘deadline’ yang melampau mikro-pengurusan kurangnya peralatan"@ms .
+
+mh:T115 a mh:Trigger ;
+    rdfs:label "sumber kurangnya peluang untuk naik pangkat gangguan punca tekanan emosi berkaitan pekerjaan boleh dikategorikan kepada keupayaan individu"@ms .
+
+mh:T116 a mh:Trigger ;
+    rdfs:label "faktor organisasi. keupayaan individu merujuk kepada kemahiran seseorang pekerja"@ms .
+
+mh:T117 a mh:Trigger ;
+    rdfs:label "keadaan psikologikal"@ms .
+
+mh:T118 a mh:Trigger ;
+    rdfs:label "kesihatan fizikal"@ms .
+
+mh:T119 a mh:Trigger ;
+    rdfs:label "mekanisme penerimaan terhadap faktor organisasi seperti arahan pengurusan atau kaedah pengurusan"@ms .
+
+mh:T120 a mh:Trigger ;
+    rdfs:label "budaya sesebuah organisasi"@ms .
+
+mh:T121 a mh:Trigger ;
+    rdfs:label "waktu bekerja"@ms .
+
+mh:T122 a mh:Trigger ;
+    rdfs:label "banyak lagi. maka"@ms .
+
+mh:T123 a mh:Trigger ;
+    rdfs:label "akibat daripada tekanan emosi juga akan mempengaruhi kesihatan seseorang individu"@ms .
+
+mh:T124 a mh:Trigger ;
+    rdfs:label "juga sesebuah organisasi. tanda-tanda tekanan emosi berkaitan kerja pada seseorang pekerja apabila seseorang pekerja sudah tidak tahan berdepan dengan tekanan emosi yang dihadapinya"@ms .
+
+mh:T125 a mh:Trigger ;
+    rdfs:label "pekerja akan menerima kesannya secara langsung. ia akan menyusutkan kualiti kesihatan mental"@ms .
+
+mh:T126 a mh:Trigger ;
+    rdfs:label "fizikal. jika ia berterusan"@ms .
+
+mh:T127 a mh:Trigger ;
+    rdfs:label "ia akan menjurus kepada masalah kesihatan psikologikal seperti jiwa tidak tenteram"@ms .
+
+mh:T128 a mh:Trigger ;
+    rdfs:label "kemurungan kronik"@ms .
+
+mh:T129 a mh:Trigger ;
+    rdfs:label "masalah mental yang lain. selain itu"@ms .
+
+mh:T130 a mh:Trigger ;
+    rdfs:label "tekanan emosi juga akan mempengaruhi keadaan fizikal badan seperti penyakit kardiovaskular"@ms .
+
+mh:T131 a mh:Trigger ;
+    rdfs:label "penaykit maskularskeletal"@ms .
+
+mh:T132 a mh:Trigger ;
+    rdfs:label "masalah pernafasan"@ms .
+
+mh:T133 a mh:Trigger ;
+    rdfs:label "banyak lagi. justeru itu"@ms .
+
+mh:T134 a mh:Trigger ;
+    rdfs:label "tanda-tanda adalah berbeza mengikut keadaan kesihatan seseorang individu. perasaan negatif"@ms .
+
+mh:T135 a mh:Trigger ;
+    rdfs:label "kemurungan perasaan negatif boleh terbentuk dalam pelbagai cara. ia mungkin bersifat sementara seperti perasaan yang teruk apabila anda gagal melakukan sesuatu tugaan. kemudian ia mula membentuk kepada perasaan ragu-ragu terhadap keupayaan sendiri"@ms .
+
+mh:T136 a mh:Trigger ;
+    rdfs:label "anda mula mempersoalkan kebolehan anda. masalah kecil yang berlaku boleh mengakibatkan anda berasa sangat kecewa pada diri. hilangnya keyakinan diri boleh menyebabkan kemurungan"@ms .
+
+mh:T137 a mh:Trigger ;
+    rdfs:label "jiwa tidak tenteram. sifat agresif anda menjadi marah terhadap semua orang. jenaka yang anda selalu ketawakan bersama rakan-rakan sudah menjadi satu penghinaan yang anda rasakan perlu untuk melawan mereka kembali. tindakan biasa oleh rakan sekerja sudah menjadi satu penghinaan kepada anda. anda gagal mengawal kemarahan. anda cepat melatah di tempat kerja. peralihan mood yang luar biasa ada hari anda datang ke tempat pekerjaan dengan perasaan gembira"@ms .
+
+mh:T138 a mh:Trigger ;
+    rdfs:label "tapi setengah jam kemudian"@ms .
+
+mh:T139 a mh:Trigger ;
+    rdfs:label "anda berasa sangat kecewa"@ms .
+
+mh:T140 a mh:Trigger ;
+    rdfs:label "mula menitiskan air mata. apabila anda selesai melalui mood ‘blue’ itu anda akan berasa sangat malu"@ms .
+
+mh:T141 a mh:Trigger ;
+    rdfs:label "mungkin juga terlebih tidur. begitu juga habit pemakanan anda. mungkin selera anda bertambah atau berkurang dengan mendadak. penyalahgunaan bahan terlarang bagi menghadapi tekanan emosi"@ms .
+
+mh:T142 a mh:Trigger ;
+    rdfs:label "anda akan menyalahgunakan alkohol atau dadah. anda juga akan mula ketagih kepada alkohol"@ms .
+
+mh:T143 a mh:Trigger ;
+    rdfs:label "dadah rekreasi mahupun kedua-duanya. masalah ketepatan masa akibat daripada kurangnya motivasi atau ketakutan pada kerja"@ms .
+
+mh:T144 a mh:Trigger ;
+    rdfs:label "anda akan tidak sengaja datang lewat ke tempat kerja"@ms .
+
+mh:T145 a mh:Trigger ;
+    rdfs:label "kemungkinan besar anda mengalami tekanan emosi berkaitan pekerjaan. anda perlu berbicara dengan pengurus atau wakil yang mewakili kesatuan sekerja anda untuk mencari jalan penyelesaian masalah tekanan emosi tersebut. walau bagaimanapun"@ms .
+
+mh:T146 a mh:Trigger ;
+    rdfs:label "simptom-simptom di atas mungkin bermaksud tekanan emosi"@ms .
+
+mh:T147 a mh:Trigger ;
+    rdfs:label "ia juga bolej menjadi pengukur terhadap keadaan kesihatan. jika anda mengalami simptom di atas untuk masa yang lama"@ms .
+
+mh:T148 a mh:Trigger ;
+    rdfs:label "berundinglah segera dengan pakar kesihatan anda. jika masalah anda bermula daripada keadaan kesihatan yang teruk"@ms .
+
+mh:T149 a mh:Trigger ;
+    rdfs:label "dengan mengenalpasti punca masalah"@ms .
+
+mh:T150 a mh:Trigger ;
+    rdfs:label "merawat kembali mood anda seperti sediakala. jika anda mengenalpasti tanda-tanda ini dalam kumpulan kerja"@ms .
+
+mh:T151 a mh:Trigger ;
+    rdfs:label "sila lah berunding penyelia dengan penyelia anda. dalam pengurusan tekanan emosi"@ms .
+
+mh:T152 a mh:Trigger ;
+    rdfs:label "campur tangan atau ‘early intervention’ dengan menilai perubahan dinamik dalam kumpulan pekerjaan serta mengambil langkah pro-aktif dalam menangani perubahan tingkahlaku kecil"@ms .
+
+mh:T153 a mh:Trigger ;
+    rdfs:label "drastik amat diperlukan. setiap daripada kita mengalami hari yang teruk"@ms .
+
+mh:T154 a mh:Trigger ;
+    rdfs:label "bagus. rakan sekerja anda mungkin nampak tidak bermaya"@ms .
+
+mh:T155 a mh:Trigger ;
+    rdfs:label "goyah pada sesuatu hari"@ms .
+
+mh:T156 a mh:Trigger ;
+    rdfs:label "namun tidak semestinya dia berhadapan dengan masalah tekanan emosi berkaitan pekerjaan. buatlah pertimbangan terbaik terhadap simptom yang anda lihat di tempat kerja. hello health group tidak memberikan nasihat perubatan"@ms .
+
+mh:T157 a mh:Trigger ;
+    rdfs:label "diagnosis"@ms .
+
+mh:T158 a mh:Trigger ;
+    rdfs:label "rawatan"@ms .
+
+mh:T159 a mh:Trigger ;
+    rdfs:label "perubahan. ada masanya anda telah berlatih"@ms .
+
+mh:T160 a mh:Trigger ;
+    rdfs:label "menghafal teks ucapan anda sebaiknya"@ms .
+
+mh:T161 a mh:Trigger ;
+    rdfs:label "tetapi apabila berdiri di khalayak umum"@ms .
+
+mh:T162 a mh:Trigger ;
+    rdfs:label "anda secara tiba-tiba menukar pengucapan anda yang menyebabkan anda kehilangan idea"@ms .
+
+mh:T163 a mh:Trigger ;
+    rdfs:label "keliru. dalam situasi peperiksaan pula"@ms .
+
+mh:T164 a mh:Trigger ;
+    rdfs:label "anda mungkin diberitahu oleh rakan tentang topik yang mungkin akan keluar dalam peperiksaan"@ms .
+
+mh:T165 a mh:Trigger ;
+    rdfs:label "tetapi apabila melihat kertas soalan"@ms .
+
+mh:T166 a mh:Trigger ;
+    rdfs:label "tiada satu topik yang anda baca keluar dalam kertas peperiksaan"@ms .
+
+mh:T167 a mh:Trigger ;
+    rdfs:label "di mana anda akan merasa gementar apabila perlu berdiri di khalayak umum untuk melakukan pengucapan atau persembahan. ia merupakan satu ketakutan"@ms .
+
+mh:T168 a mh:Trigger ;
+    rdfs:label "rasa tidak berdaya membuatkan anda berisiko mengalami situasi fikiran kosong. ubatan. pengambilan ubatan tertentu atas faktor kesihatan juga boleh menjadi antara penyebab yang membuatkan anda cenderung mengalami fikiran kosong. jika anda mengalaminya setelah mengambil ubat baru"@ms .
+
+mh:T169 a mh:Trigger ;
+    rdfs:label "sebaiknya anda berbincang dengan doktor untuk memastikan ia adalah kesan sampingan daripada ubatan. kurang tidur. rehat yang tidak mencukupi juga boleh menyebabkan badan anda menjadi letih"@ms .
+
+mh:T170 a mh:Trigger ;
+    rdfs:label "lesu. keadaan ini sekali gus boleh mendatangkan impak kepada pemikiran anda. emosi terganggu. kesibukan dengan tugasan harian"@ms .
+
+mh:T171 a mh:Trigger ;
+    rdfs:label "kerja boleh menyebabkan emosi anda terganggu. tidak menjaga kesihatan diri juga boleh menjadi punca berlakunya fikiran kosong akibat keletihan. keadaan kesihatan. masalah kesihatan yang mempunyai kaitan dengan fikiran kosong adalah termasuk"@ms .
+
+mh:T172 a mh:Trigger ;
+    rdfs:label "keradangan"@ms .
+
+mh:T173 a mh:Trigger ;
+    rdfs:label "keletihan"@ms .
+
+mh:T174 a mh:Trigger ;
+    rdfs:label "perubahan tahap gula dalam darah. individu yang didiagnosis dengan fibromyalgia mungkin akan mengalami keletihan mental setiap hari. beberapa keadaan lain yang menyebabkan simptom fikiran kosong"@ms .
+
+mh:T175 a mh:Trigger ;
+    rdfs:label "fikiran kosong adalah fenomena yang amat menjengkelkan"@ms .
+
+mh:T176 a mh:Trigger ;
+    rdfs:label "mengganggu untuk menyelesaikan tugasan yang perlu dilakukan. kenapa ia berlaku? anatomi ketika berlakunya mind blank terdapat 3 bahagian utama otak yang terlibat apabila menghadapi situasi fikiran kosong: hipotalamus"@ms .
+
+mh:T177 a mh:Trigger ;
+    rdfs:label "hippocampus"@ms .
+
+mh:T178 a mh:Trigger ;
+    rdfs:label "prefrontal cortex (pfc). hipotalamus – penghubung antara emosi"@ms .
+
+mh:T179 a mh:Trigger ;
+    rdfs:label "fizikal. ia sangat berkaitan dengan sistem endokrin"@ms .
+
+mh:T180 a mh:Trigger ;
+    rdfs:label "hormon yang wujud di seluruh badan. hippocampus – pusat emosi. memainkan peranan penting dalam kedua-dua proses pembelajaran"@ms .
+
+mh:T181 a mh:Trigger ;
+    rdfs:label "mengulangi atau mengingati fakta prefrontal cortex – mengawal aspek yang membeza antara manusa"@ms .
+
+mh:T182 a mh:Trigger ;
+    rdfs:label "haiwan"@ms .
+
+mh:T183 a mh:Trigger ;
+    rdfs:label "termasuk membuat perancangan"@ms .
+
+mh:T184 a mh:Trigger ;
+    rdfs:label "keputusan"@ms .
+
+mh:T185 a mh:Trigger ;
+    rdfs:label "kawalan impuls"@ms .
+
+mh:T186 a mh:Trigger ;
+    rdfs:label "interaksi sosial. kognisi sejuk"@ms .
+
+mh:T187 a mh:Trigger ;
+    rdfs:label "panas ketika berada dalam situasi normal"@ms .
+
+mh:T188 a mh:Trigger ;
+    rdfs:label "otak berada dalam kognisi sejuk ( cold cognition) . hipotalamus berfungsi secara perlahan"@ms .
+
+mh:T189 a mh:Trigger ;
+    rdfs:label "normal"@ms .
+
+mh:T190 a mh:Trigger ;
+    rdfs:label "membolehkan anda menikmati muzik ketika belajar atau melakukan sebarang tugasan"@ms .
+
+mh:T191 a mh:Trigger ;
+    rdfs:label "tahap hormon tekanan berada pada tahap rendah. sebaliknya"@ms .
+
+mh:T192 a mh:Trigger ;
+    rdfs:label "ketika berada dalam situasi yang mengelisahkan"@ms .
+
+mh:T193 a mh:Trigger ;
+    rdfs:label "berisiko atau menakutkan"@ms .
+
+mh:T194 a mh:Trigger ;
+    rdfs:label "atau siatuasi yang tidak normal"@ms .
+
+mh:T195 a mh:Trigger ;
+    rdfs:label "otak berada dalam kognisi panas ( hot cognition) . dalam situasi yang mendatangkan ketegangan ini"@ms .
+
+mh:T196 a mh:Trigger ;
+    rdfs:label "hipotalamus mengaktifkan respons tindak balas fight-or-flight – iaitu tindak balas yang melibatkan psikologi"@ms .
+
+mh:T197 a mh:Trigger ;
+    rdfs:label "sama ada untuk melawan atau mengabaikannya – yang menghasilkan kortisol"@ms .
+
+mh:T198 a mh:Trigger ;
+    rdfs:label "hormon menarik lain dalam badan. hormon ini menyerang pfc"@ms .
+
+mh:T199 a mh:Trigger ;
+    rdfs:label "mengganggu aktiviti neuron"@ms .
+
+mh:T200 a mh:Trigger ;
+    rdfs:label "pola biasa otak. ini mengakibatkan fungsi otak untuk mengingati atau mengulangi fakta terganggu. cara merawat walaupun mengalami fikiran kosong adalah sesuatu keadaan yang tidak boleh kita jangka"@ms .
+
+mh:T201 a mh:Trigger ;
+    rdfs:label "tetapi terdapat beberapa perkara yang boleh anda lakukan untuk mengelakkan situasi ini. perkara paling penting yang anda harus menghindari sebarang perkara yang boleh menyebabkan anda mengalami tekanan"@ms .
+
+mh:T202 a mh:Trigger ;
+    rdfs:label "kegelisahan. cuba untuk menggunakan teknik pernafasan mendalam jika anda merasakan anda dalam keadaan tertekan"@ms .
+
+mh:T203 a mh:Trigger ;
+    rdfs:label "gelisah. lakukan persiapan dengan sebaik mungkin"@ms .
+
+mh:T204 a mh:Trigger ;
+    rdfs:label "sama ada tugasan anda melibatkan pengucapan di khalayak umum atau berkaitan peperiksaan. pastikan sewaktu anda melakukan persiapan itu"@ms .
+
+mh:T205 a mh:Trigger ;
+    rdfs:label "anda tetap menjaga kesihatan diri"@ms .
+
+mh:T206 a mh:Trigger ;
+    rdfs:label "memberikan diri rehat"@ms .
+
+mh:T207 a mh:Trigger ;
+    rdfs:label "tidur yang secukupnya serta mengambil pemakanan yang sihat"@ms .
+
+mh:TRT001 a mh:Treatment ;
+    rdfs:label "pernafasan dalam: tarik nafas dalam-dalam"@ms .
+
+mh:TRT002 a mh:Treatment ;
+    rdfs:label "tahan sebentar"@ms .
+
+mh:TRT003 a mh:Treatment ;
+    rdfs:label "lepaskan secara perlahan. ulangi langkah ini beberapa kali berbual dengan seseorang: berkongsi perasaan dengan orang yang anda percaya boleh meredakan kegelisahan yang dialami. anda boleh meluahkannya kepada ahli keluarga atau rakan baik anda mengatur semula fikiran anda: kenal pasti fikiran-fikiran negatif"@ms .
+
+mh:TRT004 a mh:Treatment ;
+    rdfs:label "anda boleh cuba berzikir"@ms .
+
+mh:TRT005 a mh:Treatment ;
+    rdfs:label "membaca al-quran atau bersolat sunat 2 rakaat sebagai kaedah menenangkan diri kurangkan pengambilan kafein"@ms .
+
+mh:TRT006 a mh:Treatment ;
+    rdfs:label "boleh mempengaruhi kadar degupan jantung"@ms .
+
+mh:TRT007 a mh:Treatment ;
+    rdfs:label "menambah kegelisahan anda atur rutin harian anda: memiliki rutin harian akan memberikan anda rasa teratur"@ms .
+
+mh:TRT008 a mh:Treatment ;
+    rdfs:label "mengurangkan kegelisahan rujuk pakar: jika serangan kegelisahan menjadi terlalu kerap"@ms .
+
+mh:TRT009 a mh:Treatment ;
+    rdfs:label "ada sesetengah individu yang mungkin akan mengalami sesak nafas apabila terlalu gelisah . apakah cara mengatasi kegelisahan sesak nafas ini? pada ketika ini"@ms .
+
+mh:TRT010 a mh:Treatment ;
+    rdfs:label "amat penting untuk anda cuba menenangkan diri"@ms .
+
+mh:TRT011 a mh:Treatment ;
+    rdfs:label "pastikan perut anda mengembang. kemudian"@ms .
+
+mh:TRT012 a mh:Treatment ;
+    rdfs:label "hembus nafas anda melalui mulut . cara hilangkan serangan kegelisahan ini dapat memastikan tubuh anda mendapat oksigen yang cukup"@ms .
+
+mh:TRT013 a mh:Treatment ;
+    rdfs:label "meredakan rasa sesak nafas yang berlaku. jika anda melihat mana-mana individu mengalami sesak nafas disebabkan serangan kegelisahan"@ms .
+
+mh:TRT014 a mh:Treatment ;
+    rdfs:label "dengan pengetahuan"@ms .
+
+mh:TRT015 a mh:Treatment ;
+    rdfs:label "cara hilangkan serangan kegelisahan yang tepat"@ms .
+
+mh:TRT016 a mh:Treatment ;
+    rdfs:label "kita sebenarnya boleh menghadapinya. dapatkan bantuan apabila perlu"@ms .
+
+mh:TRT017 a mh:Treatment ;
+    rdfs:label "jangan segan untuk berkongsi perasaan anda. perlu diingat bahawa kegelisahan adalah sebahagian daripada kehidupan. namun"@ms .
+
+mh:TRT018 a mh:Treatment ;
+    rdfs:label "dengan sokongan"@ms .
+
+mh:TRT019 a mh:Treatment ;
+    rdfs:label "kita boleh melaluinya dengan penuh keyakinan"@ms .
+
+mh:TRT020 a mh:Treatment ;
+    rdfs:label "gangguan tidur kesukaran untuk menumpukan perhatian boleh meningkatkan risiko penyakit jantung ubat kegelisahan disorder adakah penyakit kegelisahan boleh sembuh? perlu diketahui bahawa tiada penawar untuk gangguan kegelisahan ini. namun"@ms .
+
+mh:TRT021 a mh:Treatment ;
+    rdfs:label "ia masih boleh dirawat menerusi penggunaan beberapa jenis ubat kegelisahan hospital. antara ubat biasa yang digunakan untuk gangguan kegelisahan ialah benzodiazepines"@ms .
+
+mh:TRT022 a mh:Treatment ;
+    rdfs:label "buspirone"@ms .
+
+mh:TRT023 a mh:Treatment ;
+    rdfs:label "antidepresan"@ms .
+
+mh:TRT024 a mh:Treatment ;
+    rdfs:label "penyekat beta"@ms .
+
+mh:TRT025 a mh:Treatment ;
+    rdfs:label "minyak aromaterapi. lihat penerangan lanjut di bawah ini: #"@ms .
+
+mh:TRT026 a mh:Treatment ;
+    rdfs:label "benzodiazepines benzodiazepines adalah salah satu ubat yang kerap digunakan untuk merawat kegelisahan . ia berfungsi dengan meningkatkan kesan neurotransmitter tertentu dalam otak yang dikenali sebagai gaba. ini membantu untuk menenangkan otak"@ms .
+
+mh:TRT027 a mh:Treatment ;
+    rdfs:label "mengurangkan perasaan kegelisahan. benzodiazepines biasanya digunakan untuk merawat kegelisahan akut"@ms .
+
+mh:TRT028 a mh:Treatment ;
+    rdfs:label "juga gangguan kegelisahan biasa. walau bagaimanapun"@ms .
+
+mh:TRT029 a mh:Treatment ;
+    rdfs:label "penggunaan jangka panjang boleh menyebabkan ketagihan"@ms .
+
+mh:TRT030 a mh:Treatment ;
+    rdfs:label "beberapa kesan sampingan termasuklah mengantuk"@ms .
+
+mh:TRT031 a mh:Treatment ;
+    rdfs:label "kehilangan koordinasi. ubat ini hanya boleh didapati dengan preskripsi doktor. #"@ms .
+
+mh:TRT032 a mh:Treatment ;
+    rdfs:label "buspirone buspirone adalah ubat yang dihasilkan khusus untuk merawat kegelisahan kronik. berbeza dengan benzodiazepines"@ms .
+
+mh:TRT033 a mh:Treatment ;
+    rdfs:label "ia tidak menyebabkan ketagihan. ubat ini berfungsi dengan cara mempengaruhi neurotransmitter yang terlibat dalam tindak balas kegelisahan . ia juga biasa digunakan untuk merawat gangguan kegelisahan umum. kesannya mungkin lebih lambat berbanding benzodiazepines"@ms .
+
+mh:TRT034 a mh:Treatment ;
+    rdfs:label "akan tetapi ia mempunyai kesan sampingan yang lebih sedikit. ubat ini juga memerlukan preskripsi daripada doktor yang merawat anda. #"@ms .
+
+mh:TRT035 a mh:Treatment ;
+    rdfs:label "ubat kegelisahan di farmasi: antidepresan ubat antidepresan juga merawat kegelisahan. walaupun kebanyakan ubat penenang depresi digunakan untuk merawat kemurungan"@ms .
+
+mh:TRT036 a mh:Treatment ;
+    rdfs:label "namun beberapa jenis antidepresan juga berkesan dalam mengubati kegelisahan. ubat ini bertindak dengan cara menyeimbangkan bahan kimia dalam otak yang mempengaruhi mood"@ms .
+
+mh:TRT037 a mh:Treatment ;
+    rdfs:label "emosi. antidepresan boleh membantu merawat pelbagai jenis kegelisahan termasuk gangguan kegelisahan umum"@ms .
+
+mh:TRT038 a mh:Treatment ;
+    rdfs:label "gangguan panik . kesannya mungkin boleh dilihat dalam tempoh beberapa minggu selepas pengambilannya. antara kesan sampingan ubat ini termasuklah sakit kepala"@ms .
+
+mh:TRT039 a mh:Treatment ;
+    rdfs:label "mual"@ms .
+
+mh:TRT040 a mh:Treatment ;
+    rdfs:label "gangguan tidur. ubat ini turut memerlukan preskripsi doktor anda. #"@ms .
+
+mh:TRT041 a mh:Treatment ;
+    rdfs:label "ubat kegelisahan : penyekat beta ( beta-blockers ) penyekat beta biasanya digunakan untuk merawat tekanan darah tinggi . akan tetapi"@ms .
+
+mh:TRT042 a mh:Treatment ;
+    rdfs:label "ia juga boleh membantu mengurangkan gejala fizikal kegelisahan seperti degupan jantung yang cepat. ia berfungsi dengan menghalang kesan hormon adrenalin. ubat ini boleh digunakan untuk merawat kegelisahan situasi seperti fobia sosial. #"@ms .
+
+mh:TRT043 a mh:Treatment ;
+    rdfs:label "minyak aromaterapi minyak aromaterapi boleh menenangkan otak. minyak aromaterapi seperti minyak lavender"@ms .
+
+mh:TRT044 a mh:Treatment ;
+    rdfs:label "chamomile boleh membantu meredakan kegelisahan. minyak ini bukanlah sejenis ubat khusus"@ms .
+
+mh:TRT045 a mh:Treatment ;
+    rdfs:label "namun ia adalah remedi atau rawatan alternatif bagi beberapa gangguan mental. minyak aromaterapi boleh memberikan kesan menenangkan kepada otak anda apabila dihidu. ia boleh digunakan sebagai sebahagian daripada rutin harian untuk membantu mengurangkan tekanan emosi"@ms .
+
+mh:TRT046 a mh:Treatment ;
+    rdfs:label "kegelisahan. minyak ini juga selamat digunakan kerana ia adalah antara kaedah semula jadi dalam merawat kegelisahan. menariknya"@ms .
+
+mh:TRT047 a mh:Treatment ;
+    rdfs:label "minyak ini boleh didapati tanpa preskripsi doktor. kesimpulan kegelisahan adalah masalah yang serius"@ms .
+
+mh:TRT048 a mh:Treatment ;
+    rdfs:label "memerlukan rawatan yang sesuai. terdapat pelbagai pilihan ubat yang boleh membantu mengurangkan gejala kegelisahan yang anda alami bagi persoalan adakah penyakit kegelisahan boleh sembuh. namun pemilihan ubat ini adalah bergantung kepada perbincangan bersama doktor yang merawat. perhatian! setiap jenis ubat juga mungkin tidak memberikan kesan yang sama kepada individu lain yang menggunakannya. oleh itu"@ms .
+
+mh:TRT049 a mh:Treatment ;
+    rdfs:label "amat penting untuk mendapatkan nasihat daripada doktor terlebih dahulu"@ms .
+
+mh:TRT050 a mh:Treatment ;
+    rdfs:label "kafein menurut persatuan kopi amerika syarikat"@ms .
+
+mh:TRT051 a mh:Treatment ;
+    rdfs:label "62% rakyat negara tersebut minum kopi. namun"@ms .
+
+mh:TRT052 a mh:Treatment ;
+    rdfs:label "tahukah anda"@ms .
+
+mh:TRT053 a mh:Treatment ;
+    rdfs:label "kopi mungkin dalang sebenar di sebalik kegelisahan yang anda alami? jika anda sering berdebar atau resah"@ms .
+
+mh:TRT054 a mh:Treatment ;
+    rdfs:label "elakkan kopi kerana ia merupakan salah satu penyebab simptom kegelisahan teruk! kopi merupakan sejenis stimulan. malah"@ms .
+
+mh:TRT055 a mh:Treatment ;
+    rdfs:label "bagi penghidap kegelisahan"@ms .
+
+mh:TRT056 a mh:Treatment ;
+    rdfs:label "kopi mungkin mendatangkan lebih banyak keburukan daripada kebaikan. jadi"@ms .
+
+mh:TRT057 a mh:Treatment ;
+    rdfs:label "fikir dulu sebelum anda teguk kopi bagi memulakan sebarang kerja! benar"@ms .
+
+mh:TRT058 a mh:Treatment ;
+    rdfs:label "kopi merupakan minuman yang selamat terutamanya jika diambil dalam dos yang rendah. namun"@ms .
+
+mh:TRT059 a mh:Treatment ;
+    rdfs:label "kajian menunjukkan minuman ini boleh membuatkan keresahan menjadi semakin serius"@ms .
+
+mh:TRT060 a mh:Treatment ;
+    rdfs:label "boleh menyebabkan serangan panik! tip: orang dewasa yang mengambil lebih daripada 400 mg kafein setiap hari lebih berisiko mengalami keresahan"@ms .
+
+mh:TRT061 a mh:Treatment ;
+    rdfs:label "serangan panik. jika anda penggemar kopi"@ms .
+
+mh:TRT062 a mh:Treatment ;
+    rdfs:label "makanan manis"@ms .
+
+mh:TRT063 a mh:Treatment ;
+    rdfs:label "juga pencuci mulut? inilah masanya untuk anda kurangkan pengambilan makanan bergula. menurut pakar"@ms .
+
+mh:TRT064 a mh:Treatment ;
+    rdfs:label "gula merupakan penyebab utama keresahan"@ms .
+
+mh:TRT065 a mh:Treatment ;
+    rdfs:label "juga depresi! menurut sebuah kajian yang dimuatkan di dalam the american journal of clinical nutrition"@ms .
+
+mh:TRT066 a mh:Treatment ;
+    rdfs:label "peningkatan pengambilan gula dalam diet harian didapati dapat meningkatkan risiko depresi. makanan yang manis akan meningkatkan kadar gula dalam darah . akibatnya"@ms .
+
+mh:TRT067 a mh:Treatment ;
+    rdfs:label "anda akan jadi makin resah"@ms .
+
+mh:TRT068 a mh:Treatment ;
+    rdfs:label "gelisah! jika boleh"@ms .
+
+mh:TRT069 a mh:Treatment ;
+    rdfs:label "jauhkan diri daripada makanan bergula. bukannya tidak boleh"@ms .
+
+mh:TRT070 a mh:Treatment ;
+    rdfs:label "tapi simpan makanan manis untuk acara yang istimewa sahaja ya! tip: jika anda inginkan sesuatu yang manis"@ms .
+
+mh:TRT071 a mh:Treatment ;
+    rdfs:label "beralihlah kepada buah-buahan segar seperti epal"@ms .
+
+mh:TRT072 a mh:Treatment ;
+    rdfs:label "pir"@ms .
+
+mh:TRT073 a mh:Treatment ;
+    rdfs:label "beri atau oren"@ms .
+
+mh:TRT074 a mh:Treatment ;
+    rdfs:label "makanan segera atau daging yang diproses makanan yang menyebabkan kegelisahan. daging yang diproses"@ms .
+
+mh:TRT075 a mh:Treatment ;
+    rdfs:label "makanan segera seperti pizza"@ms .
+
+mh:TRT076 a mh:Treatment ;
+    rdfs:label "sosej"@ms .
+
+mh:TRT077 a mh:Treatment ;
+    rdfs:label "kentang goreng"@ms .
+
+mh:TRT078 a mh:Treatment ;
+    rdfs:label "gula-gula"@ms .
+
+mh:TRT079 a mh:Treatment ;
+    rdfs:label "makanan bergoreng merupakan antara punca inflamasi. jika diambil terlalu banyak"@ms .
+
+mh:TRT080 a mh:Treatment ;
+    rdfs:label "ia boleh menyebabkan kegelisahan"@ms .
+
+mh:TRT081 a mh:Treatment ;
+    rdfs:label "membuatkan mood anda terganggu. benar"@ms .
+
+mh:TRT082 a mh:Treatment ;
+    rdfs:label "makanan ini mudah disediakan"@ms .
+
+mh:TRT083 a mh:Treatment ;
+    rdfs:label "boleh didapati dengan harga yang murah. menurut sebuah kajian yang dimuatkan dalam jurnal public health nutrition"@ms .
+
+mh:TRT084 a mh:Treatment ;
+    rdfs:label "individu yang gemar mengambil makanan segera mempunyai risiko sebanyak 51% untuk mengalami depresi berbanding mereka yang tidak mengambilnya. amalkan pengambilan makanan hilangkan kegelisahan yang sihat untuk mengurangkan simptom kegelisahan teruk anda. diet yang kaya dengan bijirin penuh"@ms .
+
+mh:TRT085 a mh:Treatment ;
+    rdfs:label "buah-buahan"@ms .
+
+mh:TRT086 a mh:Treatment ;
+    rdfs:label "sayur-sayuran"@ms .
+
+mh:TRT087 a mh:Treatment ;
+    rdfs:label "ikan dapat membuatkan anda rasa lebih sihat"@ms .
+
+mh:TRT088 a mh:Treatment ;
+    rdfs:label "ia hanya akan membuatkan anda semakin resah! sebab itulah"@ms .
+
+mh:TRT089 a mh:Treatment ;
+    rdfs:label "minuman ini mempunyai kesan negatif terhadap kesihatan. selain itu"@ms .
+
+mh:TRT090 a mh:Treatment ;
+    rdfs:label "ia akan menyebabkan dehidrasi"@ms .
+
+mh:TRT091 a mh:Treatment ;
+    rdfs:label "akan mencetuskan pelbagai simptom kegelisahan. ambil minuman ini secara sederhana. jika anda menghidap penyakit tertentu"@ms .
+
+mh:TRT092 a mh:Treatment ;
+    rdfs:label "elakkan minuman beralkohol"@ms .
+
+mh:TRT093 a mh:Treatment ;
+    rdfs:label "ubat-ubatan tertentu kesan sampingan ubat-ubatan. ada beberapa jenis ubat-ubatan yang mempunyai kesan sampingan tertentu. malah"@ms .
+
+mh:TRT094 a mh:Treatment ;
+    rdfs:label "ada antaranya yang akan mencetuskan simptom kegelisahan atau serangan panik. antara ubat yang mempunyai kesan sampingan sebegini ialah ubat-ubatan tiroid"@ms .
+
+mh:TRT095 a mh:Treatment ;
+    rdfs:label "asma. jika anda mengambil ubat untuk merawat kegelisahan contohnya benzodiazepines"@ms .
+
+mh:TRT096 a mh:Treatment ;
+    rdfs:label "pastikan anda mengambilnya mengikut arahan doktor. jangan berhenti secara tiba-tiba kerana ia hanya akan menyebabkan keresahan anda menjadi semakin serius. cara hilangkan serangan kegelisahan berikut merupakan cara merawat kegelisahan tanpa ubat yang anda boleh lakukan: berehat jika perlu. tonton televisyen"@ms .
+
+mh:TRT097 a mh:Treatment ;
+    rdfs:label "dengar lagu"@ms .
+
+mh:TRT098 a mh:Treatment ;
+    rdfs:label "berminyak"@ms .
+
+mh:TRT099 a mh:Treatment ;
+    rdfs:label "berlemak. kurangkan pengambilan alkohol"@ms .
+
+mh:TRT101 a mh:Treatment ;
+    rdfs:label "kehidupan seharian rasa takut"@ms .
+
+mh:TRT102 a mh:Treatment ;
+    rdfs:label "gelisah yang sukar untuk dikawal kegelisahan yang dialami berkait rapat dengan kesihatan fizikal ingin membunuh diri [embed-health-tool-bmi]"@ms .
+
+mh:TRT103 a mh:Treatment ;
+    rdfs:label "bersenam melakukan aktiviti fizikal adalah cara terbaik untuk mengatasi rasa cemas"@ms .
+
+mh:TRT104 a mh:Treatment ;
+    rdfs:label "juga tekanan yang anda alami. ia mungkin kedengaran pelik"@ms .
+
+mh:TRT105 a mh:Treatment ;
+    rdfs:label "juga merokok. jika anda memilih untuk meminum alkohol sebagai cara mengatasi kegelisahan"@ms .
+
+mh:TRT106 a mh:Treatment ;
+    rdfs:label "ia hanya dapat menghilangkan rasa cemas itu untuk tempoh sementara. lebih membimbangkan anda mungkin akan mengembangkan masalah kebergantungan kepada alkohol pula. merokok adalah 1 pilihan biasa ketika berdepan tekanan"@ms .
+
+mh:TRT107 a mh:Treatment ;
+    rdfs:label "bukan? tetapi sama seperti pengambilan alkohol"@ms .
+
+mh:TRT108 a mh:Treatment ;
+    rdfs:label "ia hanya akan memburukkan lagi kegelisahan yang anda alami dari masa ke masa. jadi mungkin sudah tiba masanya untuk anda mengurangkan tabiat tidak sihat anda ini bagi membantu mengawal masalah kegelisahan anda. nyalaan lilin aroma terapi penggunaan lilin dengan haruman aroma terapi dapat membantu mengurangkan tekanan"@ms .
+
+mh:TRT109 a mh:Treatment ;
+    rdfs:label "kegelisahan. kajian menunjukkan bahawa aroma terapi dapat memberikan manfaat seperti: membantu anda tidur membantu anda lebih tenang meningkatkan emosi mengurangkan denyutan jantung"@ms .
+
+mh:TRT110 a mh:Treatment ;
+    rdfs:label "tekanan darah terdapat beberapa pilihan haruman yang dapat meningkatkan ketenangan dalam diri"@ms .
+
+mh:TRT111 a mh:Treatment ;
+    rdfs:label "antaranya: lavender ros kenanga oren sandalwood limau gedang kurangkan pengambilan kafein kafein boleh didapati dalam kopi"@ms .
+
+mh:TRT112 a mh:Treatment ;
+    rdfs:label "teh"@ms .
+
+mh:TRT113 a mh:Treatment ;
+    rdfs:label "coklat serta minuman tenaga . pengambilannya secara berlebihan boleh meningkatkan rasa cemas"@ms .
+
+mh:TRT114 a mh:Treatment ;
+    rdfs:label "gelisah. jika anda menyedari kafein membuatkan anda berasa gelisah"@ms .
+
+mh:TRT115 a mh:Treatment ;
+    rdfs:label "sebaiknya pertimbangkan untuk mengurangkan pengambilan jumlah kafein harian. ini adalah cara mengatasi kegelisahan yang terbaik untuk anda cuba. luangkan masa bersama sokongan daripada keluarga"@ms .
+
+mh:TRT116 a mh:Treatment ;
+    rdfs:label "rakan baik pastinya dapat membantu anda untuk mengatasi masa-masa yang sukar. kajian menunjukkan wanita yang meluangkan masa dengan rakan"@ms .
+
+mh:TRT117 a mh:Treatment ;
+    rdfs:label "anak-anak"@ms .
+
+mh:TRT118 a mh:Treatment ;
+    rdfs:label "akan menghasilkan hormon oxytocin"@ms .
+
+mh:TRT119 a mh:Treatment ;
+    rdfs:label "yang berfungsi untuk melegakan tekanan secara semula jadi. pastinya manfaat ini juga dapat dirasai oleh individu lelaki. bersama ahli keluarga"@ms .
+
+mh:TRT120 a mh:Treatment ;
+    rdfs:label "rakan-rakan bergelak ketawa juga dapat mengurangkan tekanan yang dilalui . ketawa membantu mengurangkan tindak balas tekanan"@ms .
+
+mh:TRT121 a mh:Treatment ;
+    rdfs:label "memberikan ketenangan kepada otot. untuk jangka masa panjang"@ms .
+
+mh:TRT122 a mh:Treatment ;
+    rdfs:label "ketawa dapat memperbaiki sistem imun"@ms .
+
+mh:TRT123 a mh:Treatment ;
+    rdfs:label "emosi anda. jadi cubalah untuk menonton rancangan televisyen yang lawak atau melayani keletah anak-anak"@ms .
+
+mh:TRT124 a mh:Treatment ;
+    rdfs:label "hormon tekanan akan dilepaskan"@ms .
+
+mh:TRT125 a mh:Treatment ;
+    rdfs:label "anda akan menghadapi simptom fizikal seperti denyutan jantung laju"@ms .
+
+mh:TRT126 a mh:Treatment ;
+    rdfs:label "pernafasan cepat"@ms .
+
+mh:TRT127 a mh:Treatment ;
+    rdfs:label "saluran darah tersekat. melakukan pernafasan mendalam"@ms .
+
+mh:TRT128 a mh:Treatment ;
+    rdfs:label "pernafasan anda kepada normal. apabila anda berada dalam keadaan normal"@ms .
+
+mh:TRT129 a mh:Treatment ;
+    rdfs:label "anda akan berasa lebih tenang. bermain bersama haiwan peliharaan anda mempunyai haiwan peliharaan seperti kucing mahupun anjing? itu bagus"@ms .
+
+mh:TRT130 a mh:Treatment ;
+    rdfs:label "kerana haiwan peliharaan juga dapat membantu mengurangkan tekanan"@ms .
+
+mh:TRT131 a mh:Treatment ;
+    rdfs:label "memperbaiki emosi anda. berinteraksi dengan haiwan peliharaan boleh membantu penghasilan hormon oxytocin – bahan kimia dalam otak yang mempromosikan emosi positif. mempunyai haiwan peliharaan dapat menjadikan anda lebih aktif"@ms .
+
+mh:TRT132 a mh:Treatment ;
+    rdfs:label "boleh dianggap sebagai peneman ketika sunyi. belajar mengawal tekanan tekanan"@ms .
+
+mh:TRT133 a mh:Treatment ;
+    rdfs:label "rasa cemas boleh meningkat apabila anda tekanan emosi dengan kehidupan peribadi atau ketika bekerja . tetapi itu tidak bermakna anda perlu membiarkan tekanan menguasai diri anda. terdapat pelbagai kaedah"@ms .
+
+mh:TRT134 a mh:Treatment ;
+    rdfs:label "cara mengatasi kegelisahan serta tekanan yang boleh anda cuba lakukan. paling utama"@ms .
+
+mh:TRT135 a mh:Treatment ;
+    rdfs:label "sentiasa menjaga kesihatan diri"@ms .
+
+mh:TRT136 a mh:Treatment ;
+    rdfs:label "belajar untuk seimbangkan antara kehidupan peribadi"@ms .
+
+mh:TRT137 a mh:Treatment ;
+    rdfs:label "pekerjaan"@ms .
+
+mh:TRT138 a mh:Treatment ;
+    rdfs:label "kenal pasti pemikiran negatif jika anda ingin mengubah fikiran"@ms .
+
+mh:TRT139 a mh:Treatment ;
+    rdfs:label "catatkannya"@ms .
+
+mh:TRT140 a mh:Treatment ;
+    rdfs:label "cari cara terbaik untuk memperbetulkan pemikiran negatif ini. ia mungkin melibatkan kerja"@ms .
+
+mh:TRT141 a mh:Treatment ;
+    rdfs:label "sekolah"@ms .
+
+mh:TRT142 a mh:Treatment ;
+    rdfs:label "keluarga atau rakan-rakan. namun"@ms .
+
+mh:TRT143 a mh:Treatment ;
+    rdfs:label "ada masanya pemikiran negatif itu adalah sesuatu kebenaran. tetapi catatkannya"@ms .
+
+mh:TRT144 a mh:Treatment ;
+    rdfs:label "cari cara untuk memperbaikinya agar lebih baik. #"@ms .
+
+mh:TRT145 a mh:Treatment ;
+    rdfs:label "cuba untuk fikir secara positif atau berhenti seketika dari menyesakkan fikiran anda. #"@ms .
+
+mh:TRT146 a mh:Treatment ;
+    rdfs:label "senyum"@ms .
+
+mh:TRT147 a mh:Treatment ;
+    rdfs:label "ketawa riang berjenaka atau berkomedi dapat membantu anda untuk senyum"@ms .
+
+mh:TRT148 a mh:Treatment ;
+    rdfs:label "ketawa dengan lebih kerap dalam kehidupan . ini boleh membantu menjadi senyum sebagai tabiat anda. #"@ms .
+
+mh:TRT149 a mh:Treatment ;
+    rdfs:label "bercakap perkara yang positif katakan kepada diri"@ms .
+
+mh:TRT150 a mh:Treatment ;
+    rdfs:label "jangan fikirkan tentang individu lain atau katakan kepada individu lain tentang perkara yang anda sendiri tidak mahu fikir atau dengar. ia boleh menjadi sesuatu yang sukar"@ms .
+
+mh:TRT151 a mh:Treatment ;
+    rdfs:label "namun"@ms .
+
+mh:TRT152 a mh:Treatment ;
+    rdfs:label "ia boleh dijadikan rutin secara perlahan. #"@ms .
+
+mh:TRT153 a mh:Treatment ;
+    rdfs:label "bersama"@ms .
+
+mh:TRT154 a mh:Treatment ;
+    rdfs:label "berkawan dengan individu yang positif. ini boleh membantu anda untuk kekal positif. individu negatif hanya boleh menyebabkan anda tertekan"@ms .
+
+mh:TRT155 a mh:Treatment ;
+    rdfs:label "menjadikan kemurungan lebih kronik. anda boleh merasa tertekan dengan pelbagai perkara dalam hidup anda. konklusi beberapa simptom kemurungan boleh mendatangkan impak dalam kehidupan"@ms .
+
+mh:TRT156 a mh:Treatment ;
+    rdfs:label "kesihatan anda. walau bagaimanapun"@ms .
+
+mh:TRT157 a mh:Treatment ;
+    rdfs:label "anda boleh menangani kemurungan dengan belajar untuk berfikiran positif. ia mungkin mengambil masa"@ms .
+
+mh:TRT158 a mh:Treatment ;
+    rdfs:label "tetapi hasilnya pastinya memberikan kesan yang baik untuk anda !"@ms .
+
+mh:TRT159 a mh:Treatment ;
+    rdfs:label "lepaskan marah satu perkara yang baik? cara hilangkan kemarahan di bilik rage room . mencari cara untuk menyatakan kemarahan anda sebenarnya baik untuk kesihatan diri. menurut dr. scott bea"@ms .
+
+mh:TRT160 a mh:Treatment ;
+    rdfs:label "ahli psikologi klinikal"@ms .
+
+mh:TRT161 a mh:Treatment ;
+    rdfs:label "kemarahan yang terpendam sebenarnya boleh memicu banyak masalah lain kepada seseorang individu tersebut. ia boleh menyebabkan kemunculan simptom-simptom fisiologi atau psikologi seperti keresahan. oleh itu"@ms .
+
+mh:TRT162 a mh:Treatment ;
+    rdfs:label "cara untuk kita menguruskan kemarahan tersebut adalah perlu. namun menurut dr. scott bea lagi"@ms .
+
+mh:TRT163 a mh:Treatment ;
+    rdfs:label "kita biasanya tidak tahu cara yang terbaik untuk menguruskan kemarahan yang dirasakan. dr scott bea menambah"@ms .
+
+mh:TRT164 a mh:Treatment ;
+    rdfs:label "memecahkan barang melalui bilik lepaskan marah mungkin membantu seseorang itu meluahkan kemarahan mereka dengan cara yang baik"@ms .
+
+mh:TRT165 a mh:Treatment ;
+    rdfs:label "namun ia hanya bersifat sementara waktu sahaja. cara atasi kemarahan melalui bilik lepaskan marah ini tidak boleh membantu seseorang yang mempunyai masalah kemarahan yang kronik. manfaat atasi marah anda melalui rage room walaupun tidak terdapat banyak kajian yang menyatakan manfaat bilik lepaskan marah ini"@ms .
+
+mh:TRT166 a mh:Treatment ;
+    rdfs:label "namun ia mungkin boleh memberikan beberapa kebaikan kepada anda. antaranya ialah: manfaat atasi marah anda melalui rage room #"@ms .
+
+mh:TRT167 a mh:Treatment ;
+    rdfs:label "rasa seperti diberikan kuasa kemarahan boleh berpunca daripada rasa tidak berdaya"@ms .
+
+mh:TRT168 a mh:Treatment ;
+    rdfs:label "kurang kawalan ke atas sesuatu situasi. mencari cara untuk menyalurkan kemarahan anda"@ms .
+
+mh:TRT169 a mh:Treatment ;
+    rdfs:label "walaupun secara ringkas atau sementara"@ms .
+
+mh:TRT170 a mh:Treatment ;
+    rdfs:label "boleh membantu anda berasa seperti menuntut semula emosi. kesannya"@ms .
+
+mh:TRT171 a mh:Treatment ;
+    rdfs:label "anda mungkin berasa lebih berkuasa"@ms .
+
+mh:TRT172 a mh:Treatment ;
+    rdfs:label "bersedia untuk menangani situasi itu semula. manfaat atasi marah anda melalui rage room #"@ms .
+
+mh:TRT173 a mh:Treatment ;
+    rdfs:label "kebebasan untuk lepaskan marah tanpa sangkaan buruk orang lain sifat marah merupakan antara emosi yang tidak diterima ramai"@ms .
+
+mh:TRT174 a mh:Treatment ;
+    rdfs:label "terutamanya di tempat-tempat awam. apatah lagi jika anda melepaskannya di tempat umum sehingga menimbulkan situasi genting atau tidak selesa kepada orang lain. oleh itu"@ms .
+
+mh:TRT175 a mh:Treatment ;
+    rdfs:label "penggunaan bilik lepaskan marah seperti ini boleh menjadi satu cara atasi kemarahan yang baik tanpa sangkaan buruk orang lain. manfaat atasi marah anda melalui rage room #"@ms .
+
+mh:TRT176 a mh:Treatment ;
+    rdfs:label "ruang terbaik untuk teroka emosi anda di bilik lepaskan marah"@ms .
+
+mh:TRT177 a mh:Treatment ;
+    rdfs:label "anda berpeluang untuk meneroka emosi-emosi anda dengan cara yang lebih tertutup"@ms .
+
+mh:TRT178 a mh:Treatment ;
+    rdfs:label "selamat. ini kerana"@ms .
+
+mh:TRT179 a mh:Treatment ;
+    rdfs:label "bilik ini mempunyai sempadan untuk membantu anda menguruskan kemarahan dengan selamat. risiko yang mungkin berlaku apabila anda guna bilik lepaskan marah aktiviti memecahkan barang dalam bilik ini sememangnya boleh membantu anda menyalurkan kemarahan. namun"@ms .
+
+mh:TRT180 a mh:Treatment ;
+    rdfs:label "amalan ini boleh menyebabkan tingkah laku yang kasar"@ms .
+
+mh:TRT181 a mh:Treatment ;
+    rdfs:label "ganas"@ms .
+
+mh:TRT182 a mh:Treatment ;
+    rdfs:label "agresif jika tidak dikawal dengan baik. kemarahan anda perlu disalurkan dengan cara yang betul. perlu diketahui"@ms .
+
+mh:TRT183 a mh:Treatment ;
+    rdfs:label "bahawa penggunaan rage room sebagai cara atasi kemarahan merupakan salah satu kaedah untuk melepaskannya sahaja"@ms .
+
+mh:TRT184 a mh:Treatment ;
+    rdfs:label "bukan untuk menghalangnya secara total. anda boleh memecahkan barang sesuka hati anda"@ms .
+
+mh:TRT185 a mh:Treatment ;
+    rdfs:label "tetapi ia tidak dapat menyelesaikan masalah dasar yang menyebabkan kemarahan itu. cara atasi kemarahan lain yang boleh anda lakukan memasuki bilik lepaskan marah ini bukanlah satu-satunya jalan untuk anda uruskan kemarahan yang terpendam. sebenarnya"@ms .
+
+mh:TRT186 a mh:Treatment ;
+    rdfs:label "ada banyak lagi cara yang lebih sihat untuk anda lakukannya. antaranya ialah: cara hilangkan kemarahan #"@ms .
+
+mh:TRT187 a mh:Treatment ;
+    rdfs:label "emosi anda. cara hilangkan kemarahan #"@ms .
+
+mh:TRT188 a mh:Treatment ;
+    rdfs:label "ketahui punca"@ms .
+
+mh:TRT189 a mh:Treatment ;
+    rdfs:label "cara atasinya kenal pasti apakah punca atau faktor yang menyebabkan anda mudah menjadi marah. setelah itu"@ms .
+
+mh:TRT190 a mh:Treatment ;
+    rdfs:label "atasi punca tersebut dengan cara yang sesuai. salurkan kemarahan yang dialami dengan kaedah yang tepat agar anda tidak begitu teringin untuk melepaskannya kepada objek atau individu lain. manusia cenderung marah ketika berada di dalam kereta. #"@ms .
+
+mh:TRT191 a mh:Treatment ;
+    rdfs:label "belajar cara bersosial yang sihat dengan mempelajari kaedah bersosial yang sihat"@ms .
+
+mh:TRT192 a mh:Treatment ;
+    rdfs:label "anda akan mempunyai hubungan sosial yang lebih baik dengan individu lain. dengan itu"@ms .
+
+mh:TRT193 a mh:Treatment ;
+    rdfs:label "anda lebih sukar untuk berasamara atau tekanan emosi. #"@ms .
+
+mh:TRT194 a mh:Treatment ;
+    rdfs:label "bijak dalam menyelesaikan masalah"@ms .
+
+mh:TRT195 a mh:Treatment ;
+    rdfs:label "cara hilangkan kemarahan hal-hal seperti isu kekeluargaan atau pekerjaan sememangnya agak sukar untuk diselesaikan. namun"@ms .
+
+mh:TRT196 a mh:Treatment ;
+    rdfs:label "tidak bermakna anda tidak boleh cuba untuk memperbaikinya. elakkan penglibatan emosi sewaktu mengendalikan masalah yang berlaku. lakukannya dengan tenang"@ms .
+
+mh:TRT197 a mh:Treatment ;
+    rdfs:label "dapatkan pandangan daripada individu lain jika perlu. #"@ms .
+
+mh:TRT198 a mh:Treatment ;
+    rdfs:label "tukar cara berfikir jika alami masalah mungkin anda perlu mengubah cara anda memandang masalah yang sedang berlaku. ingatlah"@ms .
+
+mh:TRT199 a mh:Treatment ;
+    rdfs:label "sifat marah tidak akan menyelesaikan masalah yang berlaku"@ms .
+
+mh:TRT200 a mh:Treatment ;
+    rdfs:label "malah boleh memburukkan lagi keadaan sehingga boleh membuatkan anda menyesal di kemudian hari"@ms .
+
+mh:TRT201 a mh:Treatment ;
+    rdfs:label "philodendron peace lily aloe vera snake plant (aka lidah mak mertua) spider plant boston fern chrysanthemums weeping fig english ivy gerbera daisy bamboo palm asparagus fern rubber plant lucky bamboo trend semasa meletakkan tanaman rumah boleh dilihat sebagai satu trend semasa yang sedang mendapat permintaan tinggi. selain berfungsi sebagai terapi tekanan emosi"@ms .
+
+mh:TRT202 a mh:Treatment ;
+    rdfs:label "ia juga bertujuan sebagai hiasan untuk menambahkan seri persekitaran dalam rumah. jadi bila dalam keadaan tertekan"@ms .
+
+mh:TRT203 a mh:Treatment ;
+    rdfs:label "tengok tumbuhan hijau dalam rumah"@ms .
+
+mh:TRT204 a mh:Treatment ;
+    rdfs:label "dapatlah redakan hati ‘tu’. rumah berseri"@ms .
+
+mh:TRT205 a mh:Treatment ;
+    rdfs:label "hati pun tak sakit. kebaikan lain yang boleh diperolehi dengan meletakkan pokok dalam rumah adalah: membantu pernafasan lebih baik menjadikan sesuatu ruang di dalam rumah lebih selesa baik untuk perkembangan mental memberikan anda kepuasan membantu melupakan tekanan yang dialami meningkatkan produktiviti diri mempercepatkan proses penyembuhan meningkatkan penjagaan terapeutik bergantung kepada kesesuaian jika anda berminat untuk meletakkan tanaman rumah"@ms .
+
+mh:TRT206 a mh:Treatment ;
+    rdfs:label "perkara yang paling utama adalah untuk memastikan kesesuaian sesuatu jenis tumbuhan itu. dalam masa yang sama"@ms .
+
+mh:TRT207 a mh:Treatment ;
+    rdfs:label "jangan pula meletakkan terlalu banyak tumbuhan sehingga menyesakkan keadaan di dalam rumah. tambah tekanan emosi ‘pulak’ nanti. seeloknya dalam lima hingga enam jenis tanaman hiasan. pastikan anda tidak mengabaikan aspek penjagaan"@ms .
+
+mh:TRT208 a mh:Treatment ;
+    rdfs:label "penyelenggaraannya. jangan ingat letak dalam rumah"@ms .
+
+mh:TRT209 a mh:Treatment ;
+    rdfs:label "tanaman tersebut ‘tak’ perlukan air pulak. anda mungkin berminat untuk membaca artikel: alahan debunga: adakah ia berbahaya? 5 cara melawan tekanan dan kekal cergas berdasarkan kajian"@ms .
+
+mh:TRT210 a mh:Treatment ;
+    rdfs:label "pencemaran udara boleh jadi pembunuh senyap kehamilan kelapa: tumbuhan terkenal pelbagai guna"@ms .
+
+mh:TRT211 a mh:Treatment ;
+    rdfs:label "kesan sampingannya pernahkah anda dengar mengenai ‘manusia pokok’?"@ms .
+
+mh:TRT212 a mh:Treatment ;
+    rdfs:label "memperbaiki pernafasan menjadi tekanan darah lebih rendah memperbaiki fungsi jantung memperbaiki kadar denyutan jantung memberikan kelegaan kepada otot yang tegang terapi ini dipercayai memberikan kesan signifikan terdapat keberkesanan rawatan pesakit"@ms .
+
+mh:TRT213 a mh:Treatment ;
+    rdfs:label "termasuk mengurangkan kesakitan"@ms .
+
+mh:TRT214 a mh:Treatment ;
+    rdfs:label "memberi ketenangan"@ms .
+
+mh:TRT215 a mh:Treatment ;
+    rdfs:label "memperbaiki kadar penafasan"@ms .
+
+mh:TRT216 a mh:Treatment ;
+    rdfs:label "menjadikan tahap kegelisahan pada tahap yang lebih rendah. kesan kepada mental berada di hospital"@ms .
+
+mh:TRT217 a mh:Treatment ;
+    rdfs:label "khususnya kepada kanak-kanak"@ms .
+
+mh:TRT218 a mh:Treatment ;
+    rdfs:label "boleh memberikan pengalaman yang menakutkan"@ms .
+
+mh:TRT219 a mh:Treatment ;
+    rdfs:label "mengerikan"@ms .
+
+mh:TRT220 a mh:Treatment ;
+    rdfs:label "lebih-lebih lagi melibatkan masalah kesihatan berkaitan kanser atau penyakit lain yang serius. salah satu impak berada di hospital adalah tekanan"@ms .
+
+mh:TRT221 a mh:Treatment ;
+    rdfs:label "yang dengan sendiri boleh mewujudkan masalah kesihatan. antara simptom tekanan yang biasa adalah: sakit kepala kesakitan atau ketegangan otot sakit dada kelesuan gangguan pada perut masalah tidur antara kesan tekanan kepada emosi: kegelisahan kurang rehat kurang motivasi untuk fokus perasaan bercampur baur kemarahan kemurungan atau kesedihan antara kesan tekanan kepada tingkah laku: bereaksi secara berlebihan atau sebaliknya kemarahan yang melampau mengasingkan diri dari sosial manfaat terapi muzik mengurangkan kegelisahan"@ms .
+
+mh:TRT222 a mh:Treatment ;
+    rdfs:label "tekanan walaupun mungkin terdapat pelbagai variasi pilihan muzik"@ms .
+
+mh:TRT223 a mh:Treatment ;
+    rdfs:label "tetapi secara amnya"@ms .
+
+mh:TRT224 a mh:Treatment ;
+    rdfs:label "ia memberikan kesan fisiologi langsung melalui sistem saraf autonomi. muzik berkeupayaan untuk mewujudkan response motor"@ms .
+
+mh:TRT225 a mh:Treatment ;
+    rdfs:label "emosi secara langsung"@ms .
+
+mh:TRT226 a mh:Treatment ;
+    rdfs:label "terutama apabila digabungkan dengan pergerakan"@ms .
+
+mh:TRT227 a mh:Treatment ;
+    rdfs:label "rangsangan laluan deria yang berbeza. memperbaiki simptom autisme minat yang ditunjukkan oleh kebanyakan individu yang mengalami autisme terhadap muzik"@ms .
+
+mh:TRT228 a mh:Treatment ;
+    rdfs:label "memperlihatkan perubahan dalam komunikasi nonverbal"@ms .
+
+mh:TRT229 a mh:Treatment ;
+    rdfs:label "lisan melalui terapi muzik – yang kini dipercayai antara satu rawatan alternatif untuk merawat autisme. kajian menunjukkan terapi muzik yang dapat memperbaiki tingkah laku sosial"@ms .
+
+mh:TRT230 a mh:Treatment ;
+    rdfs:label "tumpuan"@ms .
+
+mh:TRT231 a mh:Treatment ;
+    rdfs:label "perhatian"@ms .
+
+mh:TRT232 a mh:Treatment ;
+    rdfs:label "komunikasi"@ms .
+
+mh:TRT233 a mh:Treatment ;
+    rdfs:label "kegelisahan"@ms .
+
+mh:TRT234 a mh:Treatment ;
+    rdfs:label "tahap kewaspadaan diri pesakit autisme. memperbaiki kemurungan terapi muzik adalah antara cara untuk merawat masalah kemurungan. ia bukan sekadar membantu memperbaiki emosi"@ms .
+
+mh:TRT235 a mh:Treatment ;
+    rdfs:label "tetapi dapat memperbaiki kadar denyutan"@ms .
+
+mh:TRT236 a mh:Treatment ;
+    rdfs:label "pernafasan"@ms .
+
+mh:TRT237 a mh:Treatment ;
+    rdfs:label "tekanan darah. mengatasi masalah penyakit alzheimer"@ms .
+
+mh:TRT238 a mh:Treatment ;
+    rdfs:label "parkinson kajian menunjukkan terapi ini dapat meningkatkan fungsi kognitif"@ms .
+
+mh:TRT239 a mh:Treatment ;
+    rdfs:label "kualiti hidup pesakit yang mengalami masalah kognitif"@ms .
+
+mh:TRT240 a mh:Treatment ;
+    rdfs:label "termasuk parkinson"@ms .
+
+mh:TRT241 a mh:Treatment ;
+    rdfs:label "alzheimer. muzik dipercayai dapat memberikan satu bentuk terapi yang menggalakkan pesakit-pesakit ini untuk membantu mereka mengatasi simptom"@ms .
+
+mh:TRT242 a mh:Treatment ;
+    rdfs:label "menawarkan rangsang kepada deria mereka bersama sokongan sosial untuk sesi yang dijalankan secara berkumpulan. meningkatkan perkembangan janin ibu hamil yang sering mendedahkan muzik kepada bayi dalam kandungan menunjukkan bayi akan lebih bertindak balas terhadap muzik selepas dilahirkan. malah muzik juga dapat mempengaruhi tingkah laku positif neonatal. mengurangkan kesakitan muzik dapat merubahan anggapan tentang kesakitan individu. kajian menunjukkan"@ms .
+
+mh:TRT243 a mh:Treatment ;
+    rdfs:label "pesakit pediatrik yang telah menjalani pembedahan"@ms .
+
+mh:TRT244 a mh:Treatment ;
+    rdfs:label "pesakit yang mengidap penyakit kronik berkaitan masalah belakang"@ms .
+
+mh:TRT245 a mh:Treatment ;
+    rdfs:label "pesakit kanser – sebagai contoh – apabila dilakukan terapi muzik"@ms .
+
+mh:TRT246 a mh:Treatment ;
+    rdfs:label "dapat mengurangkan tahap kesakitan pesakit"@ms .
+
+mh:S072 a mh:Symptom ;
+    rdfs:label "marah"@ms .
+
+mh:S099 a mh:Symptom ;
+    rdfs:label "diagnosis atau rawatan perubatan"@ms .
+
+mh:S100 a mh:Symptom ;
+    rdfs:label "rasa sedih"@ms .
+
+mh:TRT100 a mh:Treatment ;
+    rdfs:label "perhubungan"@ms .
+
+mh:Strategy a owl:Class ;
+    rdfs:label "Strategy"@en .
+
+mh:Condition a owl:Class ;
+    rdfs:label "Condition"@en .
+
+mh:Symptom a owl:Class ;
+    rdfs:label "Symptom"@en .
+
+mh:Trigger a owl:Class ;
+    rdfs:label "Trigger"@en .
+
+mh:Treatment a owl:Class ;
+    rdfs:label "Treatment"@en .
+

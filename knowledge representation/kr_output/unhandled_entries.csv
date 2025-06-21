@@ -1,0 +1,20 @@
+﻿index,title,relation,reason,clean_title_tokens
+9,"Stres Pasca Trauma PTSD, Penghidap Berisiko Kena Penyakit Kronik!",triggered_by,list extraction returned empty,
+10,"Obsesif Kompulsif, OCD Pun Boleh Ada Pada Kanak-Kanak,Ini Cara Atasi",treated_by,list extraction returned empty,
+16,claustrophobia-apa-yang-harus-anda-tahu Hello Doktor,,detect_relation returned None,"['claustrophobia', 'hello', 'doktor']"
+18,Gangguan Tekanan Selepas Trauma? Lakukan Cara Ini - Hello Doktor,treated_by,list extraction returned empty,
+23,"Penyakit OCD Yang Anda Harus Perhatikan, Jika Ada Sila Jumpa Doktor",,detect_relation returned None,"['sakit', 'ocd', 'perhati', 'jumpa', 'doktor']"
+32,"Jenis Jenis Kemurungan Ada 6, Kenali Tanda-tandanya Sebelum Rawat!",has_symptom,list extraction returned empty,
+54,strategi untuk membebaskan diri dari berfikir secara berlebihan,,detect_relation returned None,"['strategi', 'bebas', 'berfikir']"
+62,Cara Menangani Stress: 3 Salah Faham Tentang Cara Pengurusan Stress,,detect_relation returned None,"['tangan', 'stress', 'salah', 'faham', 'urus', 'stress']"
+64,Teknik Kawal Stres: Boleh Cuba Amalkan Teknik 4A Jika Rasa Tertekan!,,detect_relation returned None,"['teknik', 'kawal', 'stres', 'amal', 'teknik', 'tekan']"
+65,Hidup Gembira Boleh Dicapai Dalam Masa 30 Saat Sahaja? Ini Caranya,,detect_relation returned None,"['hidup', 'gembira', 'capai']"
+66,"Kebaikan Stres Pada Tubuh, Bukan Semua Tekanan Tidak Baik!",,detect_relation returned None,"['stres', 'tubuh', 'tekan']"
+67,"Hidup Gembira, Nikmati Kehidupan Anda Dengan 12 Cara Mudah Ini!",,detect_relation returned None,"['hidup', 'gembira', 'nikmat', 'hidup', 'mudah']"
+68,Muka Stress Boleh Sebabkan 5 Perkara Buruk Ini Pada Wajah Anda!,,detect_relation returned None,"['muka', 'stress', 'buruk', 'wajah']"
+69,Darah Beku Disebabkan Stres Yang Melampau? Boleh Berlaku Ke?,,detect_relation returned None,"['darah', 'beku', 'stres', 'lampau']"
+71,Ketenangan Diri Mula Pudar? Itu Tandanya Anda Perlukan 'Me Time',,detect_relation returned None,"['tenang', 'pudar']"
+73,Kena Buang Kerja Semasa PKP? Ini 11 Cara Nak Move On,,detect_relation returned None,"['kena', 'buang', 'kerja', 'pkp']"
+84,Betul Ke Bau Hujan BOLEH Kurangkan Stress? Ini 5 Bauan Lain Yang Berkesan! - Hello Doktor,,detect_relation returned None,"['bau', 'hujan', 'stress']"
+92,Bagaimana Menguruskan Stres Bayi Baru - Hello Doktor,,detect_relation returned None,"['urus', 'stres', 'bayi', 'hello', 'doktor']"
+104,Kecelaruan obsesif kompulsif,,detect_relation returned None,"['kecelaruan', 'obsesif', 'kompulsif']"
