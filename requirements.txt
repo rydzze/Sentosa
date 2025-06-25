@@ -1,0 +1,11 @@
+Flask==2.0.3
+werkzeug==2.0.3
+torch==2.6.0
+peft==0.15.2
+faiss-cpu==1.11.0
+tensorflow==2.19.0
+bitsandbytes==0.46.0
+transformers==4.51.3
+sentence-transformers==4.0.2
+keras==3.7.0
+tf_keras==2.19.0

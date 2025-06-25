@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentosa | MHQA System</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 72'><text y='60' font-size='60'>🤗</text></svg>">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="chat-outer">
+        <div class="chat-container">
+            <header class="chat-header">
+                <!-- <span class="icon bot-icon" style="font-size:2.2em;">🤗</span> -->
+                <h1>Sentosa</h1>
+            </header>
+            <div id="chat-box" class="chat-box"></div>
+            <form id="chat-form" autocomplete="off">
+                <input type="text" id="user-input" placeholder="Tanya soalan berkaitan kesihatan mental..." required />
+                <button type="submit">Hantar</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+        let waiting = false;
+
+        function appendMessage(sender, text, isThinking = false) {
+            const msg = document.createElement('div');
+            msg.className = `bubble ${sender}` + (isThinking ? ' thinking' : '');
+            let icon = sender === 'bot'
+                ? '<span class="icon bot-icon">🤗</span>'
+                : '<span class="icon user-icon">🧑</span>';
+            let name = sender === 'bot'
+                ? '<span class="bot-name">Sentosa</span>'
+                : '<span class="user-name">Anda</span>';
+            // Format answer with newlines and preserve whitespace
+            let formatted = text.replace(/\n/g, '<br>').replace(/  /g, '&nbsp;&nbsp;');
+            msg.innerHTML = `${icon} ${name}<br>${formatted}`;
+            chatBox.appendChild(msg);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function setInputDisabled(disabled) {
+            userInput.disabled = disabled;
+            chatForm.querySelector('button').disabled = disabled;
+        }
+
+        function welcome() {
+            appendMessage('bot', 'Hai! Saya Sentosa 🤗. Sila tanya apa-apa soalan berkaitan kesihatan mental. Semua perbualan anda adalah sulit.');
+        }
+
+        window.onload = welcome;
+
+        chatForm.onsubmit = async (e) => {
+            e.preventDefault();
+            if (waiting) return;
+            const question = userInput.value.trim();
+            if (!question) return;
+            appendMessage('user', question);
+            userInput.value = '';
+            setInputDisabled(true);
+            waiting = true;
+            // Show Sentosa is thinking
+            const thinkingMsg = document.createElement('div');
+            thinkingMsg.className = 'bubble bot thinking';
+            thinkingMsg.innerHTML = '<span class="icon bot-icon">🤗</span> <span class="bot-name">Sentosa</span><br><span class="dots">Sedang berfikir<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></span>';
+            chatBox.appendChild(thinkingMsg);
+            chatBox.scrollTop = chatBox.scrollHeight;
+            try {
+                const res = await fetch('/api/answer', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question })
+                });
+                const data = await res.json();
+                chatBox.removeChild(thinkingMsg);
+                appendMessage('bot', data.answer || data.error || 'Tiada jawapan.');
+            } catch (err) {
+                chatBox.removeChild(thinkingMsg);
+                appendMessage('bot', 'Maaf, terdapat masalah pada sistem.');
+            }
+            setInputDisabled(false);
+            waiting = false;
+            userInput.focus();
+        };
+    </script>
+</body>
+</html>
