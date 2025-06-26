@@ -2,10 +2,12 @@ import os
 import json
 import torch
 import faiss
+import requests
 from peft import PeftModel
 from flask import Flask, request, jsonify, send_from_directory
 from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
 from sentence_transformers import CrossEncoder
+from langdetect import detect
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 MODEL_DIR = os.path.join(os.path.dirname(__file__), 'model')
@@ -70,6 +72,22 @@ def generate_answer(question):
     answer = answer.split('Answer:')[-1].strip()
     return answer
 
+GOOGLE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
+
+def translate(text, source, target):
+    params = {
+        "client": "gtx",
+        "sl": source,
+        "tl": target,
+        "dt": "t",
+        "q": text
+    }
+    response = requests.get(GOOGLE_TRANSLATE_URL, params=params)
+    if response.status_code == 200:
+        return ''.join([item[0] for item in response.json()[0]])
+    else:
+        return text
+
 app = Flask(__name__)
 
 @app.route('/api/answer', methods=['POST'])
@@ -78,8 +96,16 @@ def answer():
     question = data.get('question', '')
     if not question:
         return jsonify({'error': 'No question provided'}), 400
-    answer = generate_answer(question)
-    return jsonify({'answer': answer})
+
+    lang = detect(question)
+    if lang == 'en':
+        question_ms = translate(question, 'en', 'ms')
+        answer_ms = generate_answer(question_ms)
+        answer_en = translate(answer_ms, 'ms', 'en')
+        return jsonify({'answer': answer_en})
+    else:
+        answer = generate_answer(question)
+        return jsonify({'answer': answer})
 
 @app.route('/')
 def serve_index():
